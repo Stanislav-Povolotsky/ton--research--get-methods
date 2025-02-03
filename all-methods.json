@@ -1,0 +1,7132 @@
+{
+  "65577": [
+    {
+      "arguments": "",
+      "name": "get_abi_ipfs",
+      "result": "_"
+    }
+  ],
+  "65604": [
+    {
+      "arguments": "",
+      "name": "gasClaim",
+      "result": "_"
+    }
+  ],
+  "65615": [
+    {
+      "arguments": "slice address",
+      "name": "get_payments_by_user",
+      "result": "cell"
+    }
+  ],
+  "65811": [
+    {
+      "arguments": "int query_id",
+      "name": "processed?",
+      "result": "int"
+    },
+    {
+      "arguments": "int query_id, int need_clean",
+      "name": "processed?",
+      "result": "int"
+    }
+  ],
+  "65848": [
+    {
+      "arguments": "int wallet_id, int n, int k, cell owners_info",
+      "name": "create_init_state",
+      "result": "cell"
+    },
+    {
+      "arguments": "int wallet_id, int n, int k, cell owners_info, int spend_delay",
+      "name": "create_init_state",
+      "result": "cell"
+    },
+    {
+      "arguments": "int public_key",
+      "name": "create_init_state",
+      "result": "cell"
+    },
+    {
+      "arguments": "int wallet_id, int n, int k, cell owners_info, int lock_until",
+      "name": "create_init_state",
+      "result": "cell"
+    }
+  ],
+  "65852": [
+    {
+      "arguments": "",
+      "name": "debug_load_degree_heats",
+      "result": "(cell)"
+    }
+  ],
+  "65988": [
+    {
+      "arguments": "",
+      "name": "get_owner_infos",
+      "result": "cell"
+    }
+  ],
+  "66013": [
+    {
+      "arguments": "",
+      "name": "get_presale_data",
+      "result": "(int, int, int, int, int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_presale_data",
+      "result": "(int, int, int, int, int)"
+    }
+  ],
+  "66044": [
+    {
+      "arguments": "",
+      "name": "get_signers",
+      "result": "cell"
+    }
+  ],
+  "66119": [
+    {
+      "arguments": "",
+      "name": "meaning_of_life",
+      "result": "int"
+    }
+  ],
+  "66209": [
+    {
+      "arguments": "int $$value",
+      "name": "refundAmount",
+      "result": "_"
+    }
+  ],
+  "66250": [
+    {
+      "arguments": "int round_since",
+      "name": "get_collection_address",
+      "result": "slice"
+    }
+  ],
+  "66284": [
+    {
+      "arguments": "",
+      "name": "get_trade_data",
+      "result": "(slice, cell)"
+    }
+  ],
+  "66346": [
+    {
+      "arguments": "slice voting_address",
+      "name": "get_vote_keeper_address",
+      "result": "(slice)"
+    }
+  ],
+  "66353": [
+    {
+      "arguments": "",
+      "name": "get_jetton_wallet",
+      "result": "(slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_wallet",
+      "result": "(slice, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_wallet",
+      "result": "slice"
+    }
+  ],
+  "66469": [
+    {
+      "arguments": "",
+      "name": "get_buy_count",
+      "result": "int"
+    }
+  ],
+  "66508": [
+    {
+      "arguments": "slice address",
+      "name": "get_member",
+      "result": "_"
+    }
+  ],
+  "66551": [
+    {
+      "arguments": "",
+      "name": "burn",
+      "result": "_"
+    }
+  ],
+  "66677": [
+    {
+      "arguments": "int nominator_address",
+      "name": "get_nominator_data",
+      "result": "(int, int, int)"
+    }
+  ],
+  "66774": [
+    {
+      "arguments": "",
+      "name": "active_election_id",
+      "result": "int"
+    }
+  ],
+  "66839": [
+    {
+      "arguments": "",
+      "name": "get_total_deposited",
+      "result": "(int)"
+    }
+  ],
+  "66853": [
+    {
+      "arguments": "",
+      "name": "debug_load_all_fields",
+      "result": "(int, slice, cell, cell, cell, cell, cell, cell, cell)"
+    }
+  ],
+  "66860": [
+    {
+      "arguments": "",
+      "name": "raw_get_data",
+      "result": "(cell)"
+    }
+  ],
+  "66882": [
+    {
+      "arguments": "slice address",
+      "name": "get_whitelist_info",
+      "result": "(int, int)"
+    }
+  ],
+  "66999": [
+    {
+      "arguments": "int request_id",
+      "name": "get_request_info",
+      "result": "(int, int, int)"
+    }
+  ],
+  "67203": [
+    {
+      "arguments": "",
+      "name": "get_payments",
+      "result": "cell"
+    }
+  ],
+  "67247": [
+    {
+      "arguments": "int startIndexes",
+      "name": "get_ticket_users_250",
+      "result": "var"
+    }
+  ],
+  "67465": [
+    {
+      "arguments": "",
+      "name": "get_data",
+      "result": "(slice, int, slice, cell, int, cell)"
+    }
+  ],
+  "67541": [
+    {
+      "arguments": "",
+      "name": "debug_check_claims_data_comprehensive",
+      "result": "(cell)"
+    }
+  ],
+  "67571": [
+    {
+      "arguments": "",
+      "name": "get_lockup_data",
+      "result": "(int, slice, slice, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_lockup_data",
+      "result": "(int, slice, slice, int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_lockup_data",
+      "result": "(int, int, int, int, int, int)"
+    }
+  ],
+  "67806": [
+    {
+      "arguments": "",
+      "name": "get_total_supply",
+      "result": "int"
+    }
+  ],
+  "67917": [
+    {
+      "arguments": "",
+      "name": "get_jettons_list",
+      "result": "cell"
+    }
+  ],
+  "68002": [
+    {
+      "arguments": "int src_addr",
+      "name": "estimated_profit",
+      "result": "int"
+    }
+  ],
+  "68048": [
+    {
+      "arguments": "",
+      "name": "get_sale_balance",
+      "result": "(int)"
+    }
+  ],
+  "68051": [
+    {
+      "arguments": "",
+      "name": "request_window_time",
+      "result": "(int, int)"
+    }
+  ],
+  "68071": [
+    {
+      "arguments": "int validator_pubkey",
+      "name": "participates_in",
+      "result": "int"
+    }
+  ],
+  "68265": [
+    {
+      "arguments": "int x",
+      "name": "get_debug_unchange_value",
+      "result": "int"
+    }
+  ],
+  "68282": [
+    {
+      "arguments": "int asset_id, cell prices_packed, cell asset_config_collection, cell asset_dynamics_collection",
+      "name": "get_maximum_withdraw_amount",
+      "result": "(int)"
+    }
+  ],
+  "68336": [
+    {
+      "arguments": "",
+      "name": "currentVersion",
+      "result": "_"
+    }
+  ],
+  "68425": [
+    {
+      "arguments": "",
+      "name": "get_code",
+      "result": "cell"
+    }
+  ],
+  "68496": [
+    {
+      "arguments": "",
+      "name": "get_current_n_value",
+      "result": "int"
+    }
+  ],
+  "68507": [
+    {
+      "arguments": "",
+      "name": "get_locker_manager_data",
+      "result": "(slice, slice, cell, cell, int, int)"
+    }
+  ],
+  "68670": [
+    {
+      "arguments": "int item_id",
+      "name": "get_item_data",
+      "result": "(int, slice)"
+    }
+  ],
+  "68727": [
+    {
+      "arguments": "",
+      "name": "get_authority_address",
+      "result": "slice"
+    }
+  ],
+  "68823": [
+    {
+      "arguments": "",
+      "name": "get_wrapped_token_data",
+      "result": "(int, int, int)"
+    }
+  ],
+  "68907": [
+    {
+      "arguments": "",
+      "name": "get_prices",
+      "result": "(int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_prices",
+      "result": "(int, int)"
+    },
+    {
+      "arguments": "tuple data_feed_ids, cell payload",
+      "name": "get_prices",
+      "result": "(tuple, int)"
+    }
+  ],
+  "68997": [
+    {
+      "arguments": "slice tx_id",
+      "name": "get_wrap_request_address",
+      "result": "slice"
+    }
+  ],
+  "69014": [
+    {
+      "arguments": "slice token0, slice token1",
+      "name": "get_pool_address",
+      "result": "(slice)"
+    },
+    {
+      "arguments": "slice owner_address, slice jetton_master, cell wallet_code",
+      "name": "get_pool_address",
+      "result": "slice"
+    },
+    {
+      "arguments": "slice owner_address, slice jetton_master",
+      "name": "get_pool_address",
+      "result": "slice"
+    }
+  ],
+  "69028": [
+    {
+      "arguments": "int block_number",
+      "name": "get_block_address",
+      "result": "(slice)"
+    }
+  ],
+  "69067": [
+    {
+      "arguments": "slice nft_owner, slice nft_address",
+      "name": "get_sale_address",
+      "result": "slice"
+    },
+    {
+      "arguments": "slice user_address",
+      "name": "get_sale_address",
+      "result": "slice"
+    }
+  ],
+  "69069": [
+    {
+      "arguments": "",
+      "name": "get_total_tickets",
+      "result": "(int)"
+    }
+  ],
+  "69137": [
+    {
+      "arguments": "int balance, slice owner_address, slice jetton_master_address, cell jetton_wallet_code",
+      "name": "get_calculate_user_jetton_wallet_address",
+      "result": "slice"
+    }
+  ],
+  "69245": [
+    {
+      "arguments": "",
+      "name": "list_votes",
+      "result": "tuple"
+    }
+  ],
+  "69333": [
+    {
+      "arguments": "int election_id, int chash",
+      "name": "show_complaint",
+      "result": "_"
+    }
+  ],
+  "69350": [
+    {
+      "arguments": "int hash, int v, int r, int s",
+      "name": "get_ecdsa_pub_key2",
+      "result": "(int, int, int, int)"
+    },
+    {
+      "arguments": "int hash",
+      "name": "get_ecdsa_pub_key2",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "69351": [
+    {
+      "arguments": "",
+      "name": "level",
+      "result": "_"
+    }
+  ],
+  "69356": [
+    {
+      "arguments": "int hash, slice signature",
+      "name": "get_ecdsa_pub_key1",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "69429": [
+    {
+      "arguments": "cell asset_config_collection, cell asset_dynamics_collection, cell prices_packed",
+      "name": "getIsLiquidable",
+      "result": "(int)"
+    }
+  ],
+  "69513": [
+    {
+      "arguments": "",
+      "name": "get_governance_data_source_index",
+      "result": "int"
+    }
+  ],
+  "69549": [
+    {
+      "arguments": "",
+      "name": "get_transfers_enabled",
+      "result": "var"
+    }
+  ],
+  "69641": [
+    {
+      "arguments": "slice addr",
+      "name": "is_address_authorized",
+      "result": "int"
+    }
+  ],
+  "69761": [
+    {
+      "arguments": "",
+      "name": "get_domain",
+      "result": "slice"
+    }
+  ],
+  "69819": [
+    {
+      "arguments": "",
+      "name": "get_trade_state",
+      "result": "(_)"
+    }
+  ],
+  "69852": [
+    {
+      "arguments": "",
+      "name": "get_pubkey",
+      "result": "int"
+    }
+  ],
+  "69868": [
+    {
+      "arguments": "",
+      "name": "debug_get_claim_data",
+      "result": "(cell)"
+    }
+  ],
+  "70009": [
+    {
+      "arguments": "",
+      "name": "get_battle_index",
+      "result": "int"
+    }
+  ],
+  "70061": [
+    {
+      "arguments": "cell order, int expiration_date",
+      "name": "get_order_estimate",
+      "result": "int"
+    }
+  ],
+  "70105": [
+    {
+      "arguments": "",
+      "name": "get_payment_data",
+      "result": "_"
+    }
+  ],
+  "70273": [
+    {
+      "arguments": "",
+      "name": "debug_load_total_supply",
+      "result": "(cell)"
+    },
+    {
+      "arguments": "",
+      "name": "debug_load_total_supply",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "debug_load_total_supply",
+      "result": "(slice)"
+    }
+  ],
+  "70627": [
+    {
+      "arguments": "",
+      "name": "getRandomInt",
+      "result": "_"
+    }
+  ],
+  "70942": [
+    {
+      "arguments": "",
+      "name": "get_revoked_time",
+      "result": "int"
+    }
+  ],
+  "71168": [
+    {
+      "arguments": "slice arg",
+      "name": "getter_with_slice_arg",
+      "result": "slice"
+    }
+  ],
+  "71247": [
+    {
+      "arguments": "",
+      "name": "getResult",
+      "result": "(int)"
+    }
+  ],
+  "71319": [
+    {
+      "arguments": "slice jetton_address",
+      "name": "get_bridge_pool_address",
+      "result": "(slice)"
+    }
+  ],
+  "71410": [
+    {
+      "arguments": "int ton_amount",
+      "name": "get_jetton_amount",
+      "result": "int"
+    }
+  ],
+  "71519": [
+    {
+      "arguments": "slice $$user",
+      "name": "userAward",
+      "result": "_"
+    }
+  ],
+  "71549": [
+    {
+      "arguments": "int destination_chain_id, cell destination_token_name",
+      "name": "get_mapper_address",
+      "result": "slice"
+    }
+  ],
+  "71562": [
+    {
+      "arguments": "",
+      "name": "$__gen_get_counter",
+      "result": "_"
+    }
+  ],
+  "71646": [
+    {
+      "arguments": "",
+      "name": "debug_load_content",
+      "result": "(cell)"
+    }
+  ],
+  "71821": [
+    {
+      "arguments": "",
+      "name": "myAddress",
+      "result": "_"
+    }
+  ],
+  "71875": [
+    {
+      "arguments": "",
+      "name": "get_verifiers_num",
+      "result": "int"
+    }
+  ],
+  "71965": [
+    {
+      "arguments": "int $$seqno, int $$quantity",
+      "name": "playAddress",
+      "result": "_"
+    }
+  ],
+  "71980": [
+    {
+      "arguments": "",
+      "name": "get_channel_data",
+      "result": "_"
+    }
+  ],
+  "71982": [
+    {
+      "arguments": "int asset_id",
+      "name": "get_asset_liquidity_minus_reserves_by_id",
+      "result": "int"
+    }
+  ],
+  "72046": [
+    {
+      "arguments": "",
+      "name": "orderClosed",
+      "result": "_"
+    }
+  ],
+  "72089": [
+    {
+      "arguments": "",
+      "name": "get_staking_data",
+      "result": "(int, cell, cell, slice, slice, cell, int, int, int, int, slice, slice, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_staking_data",
+      "result": "(int, slice, cell, cell, int, int, int, int, int, int, int, int, int, int, cell, slice, slice, slice, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_staking_data",
+      "result": "(int, int, int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_staking_data",
+      "result": "(int, int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_staking_data",
+      "result": "(int, int, int, int, int, int, int, int, int, int, slice, cell, slice, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_staking_data",
+      "result": "(int, int, int, int, int, int, int, int, int, int, slice, cell, slice, int, slice, int)"
+    }
+  ],
+  "72277": [
+    {
+      "arguments": "int date, slice address",
+      "name": "get_boost_count",
+      "result": "slice"
+    }
+  ],
+  "72343": [
+    {
+      "arguments": "",
+      "name": "rewardPreVluck",
+      "result": "_"
+    }
+  ],
+  "72361": [
+    {
+      "arguments": "",
+      "name": "getOwner",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "getOwner",
+      "result": "slice"
+    }
+  ],
+  "72405": [
+    {
+      "arguments": "slice $$src",
+      "name": "$__gen_get_hello",
+      "result": "_"
+    }
+  ],
+  "72469": [
+    {
+      "arguments": "",
+      "name": "get_exchange_fee",
+      "result": "(int)"
+    }
+  ],
+  "72549": [
+    {
+      "arguments": "int fwd_fee, cell supply_user_message",
+      "name": "supply_min_attachment",
+      "result": "int"
+    }
+  ],
+  "72574": [
+    {
+      "arguments": "slice jetton_master_address, int destination_chain_id",
+      "name": "get_endpoint_address",
+      "result": "slice"
+    }
+  ],
+  "72731": [
+    {
+      "arguments": "",
+      "name": "getFeePercent",
+      "result": "int"
+    }
+  ],
+  "72759": [
+    {
+      "arguments": "",
+      "name": "winnerList",
+      "result": "_"
+    }
+  ],
+  "72791": [
+    {
+      "arguments": "int $$project_id",
+      "name": "$__gen_get_project",
+      "result": "_"
+    }
+  ],
+  "72832": [
+    {
+      "arguments": "int fwd_fee, cell liquidate_user_message",
+      "name": "liquidate_min_attachment",
+      "result": "int"
+    }
+  ],
+  "73022": [
+    {
+      "arguments": "",
+      "name": "get_the_latest_sender",
+      "result": "slice"
+    }
+  ],
+  "73121": [
+    {
+      "arguments": "",
+      "name": "get_pool_data",
+      "result": "(int, int, slice, slice, int, int, int, slice, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_pool_data",
+      "result": "(int, int, int, int)"
+    },
+    {
+      "arguments": "int pool_id",
+      "name": "get_pool_data",
+      "result": "(int, int, slice, slice, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_pool_data",
+      "result": "(slice, slice, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_pool_data",
+      "result": "(int, int, slice, int, int, slice, cell, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_pool_data",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "get_pool_data",
+      "result": "(slice, slice, slice, int, int, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_pool_data",
+      "result": "(int, int, int, int, int, int, int, slice, slice, slice)"
+    }
+  ],
+  "73173": [
+    {
+      "arguments": "",
+      "name": "read_timestamp",
+      "result": "(int)"
+    }
+  ],
+  "73216": [
+    {
+      "arguments": "",
+      "name": "get_vesting_data",
+      "result": "(slice, int, int, int, int, int, int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_vesting_data",
+      "result": "(slice, int, int, int, int, int, int, int, int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_vesting_data",
+      "result": "(int, int, int, int, int, slice, slice, cell)"
+    }
+  ],
+  "73315": [
+    {
+      "arguments": "",
+      "name": "stopped",
+      "result": "_"
+    }
+  ],
+  "73408": [
+    {
+      "arguments": "",
+      "name": "chain_id",
+      "result": "int"
+    }
+  ],
+  "73413": [
+    {
+      "arguments": "slice asset_address",
+      "name": "is_asset_enabled",
+      "result": "(int)"
+    }
+  ],
+  "73546": [
+    {
+      "arguments": "cell asset_config_collection, cell asset_dynamics_collection, cell prices_packed",
+      "name": "getAvailableToBorrow",
+      "result": "(int)"
+    }
+  ],
+  "73592": [
+    {
+      "arguments": "int mode, cell msg",
+      "name": "prepare_send_message",
+      "result": "cell"
+    }
+  ],
+  "73892": [
+    {
+      "arguments": "",
+      "name": "currentPrice",
+      "result": "_"
+    }
+  ],
+  "74053": [
+    {
+      "arguments": "",
+      "name": "get_tier",
+      "result": "int"
+    }
+  ],
+  "74106": [
+    {
+      "arguments": "int $$project_id",
+      "name": "get_round_address",
+      "result": "_"
+    }
+  ],
+  "74180": [
+    {
+      "arguments": "",
+      "name": "debug_load_claims_count",
+      "result": "(cell)"
+    }
+  ],
+  "74547": [
+    {
+      "arguments": "",
+      "name": "tokensAwaitingLaunch",
+      "result": "_"
+    }
+  ],
+  "74823": [
+    {
+      "arguments": "slice jetton_address",
+      "name": "get_bridge_swap_address",
+      "result": "(slice)"
+    }
+  ],
+  "74888": [
+    {
+      "arguments": "",
+      "name": "get_can_be_destroyed",
+      "result": "int"
+    }
+  ],
+  "74900": [
+    {
+      "arguments": "int c, int n",
+      "name": "tickets_limit",
+      "result": "int"
+    }
+  ],
+  "74931": [
+    {
+      "arguments": "",
+      "name": "winnerQuantity",
+      "result": "_"
+    }
+  ],
+  "75115": [
+    {
+      "arguments": "",
+      "name": "get_offer_data_v2",
+      "result": "(int, int, int, int, int, slice, slice, slice, int, slice, int, int, slice, int, int, int)"
+    }
+  ],
+  "75130": [
+    {
+      "arguments": "",
+      "name": "get_merge_data",
+      "result": "(slice, slice, int)"
+    }
+  ],
+  "75151": [
+    {
+      "arguments": "slice $$user",
+      "name": "uservLuck",
+      "result": "_"
+    }
+  ],
+  "75194": [
+    {
+      "arguments": "",
+      "name": "get_total_tx",
+      "result": "(int)"
+    }
+  ],
+  "75197": [
+    {
+      "arguments": "",
+      "name": "get_proxy",
+      "result": "_"
+    }
+  ],
+  "75376": [
+    {
+      "arguments": "",
+      "name": "get_otoken_minter_address",
+      "result": "(slice)"
+    }
+  ],
+  "75427": [
+    {
+      "arguments": "",
+      "name": "get_collection_data",
+      "result": "(int, cell, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_collection_data",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "get_collection_data",
+      "result": "(int, cell, slice, slice, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_collection_data",
+      "result": "(int, int, cell, slice)"
+    }
+  ],
+  "75456": [
+    {
+      "arguments": "",
+      "name": "get_current_reward",
+      "result": "(int)"
+    }
+  ],
+  "75516": [
+    {
+      "arguments": "",
+      "name": "get_distribution_data",
+      "result": "cell"
+    }
+  ],
+  "75593": [
+    {
+      "arguments": "",
+      "name": "get_mintless_airdrop_hashmap_root",
+      "result": "int"
+    }
+  ],
+  "75710": [
+    {
+      "arguments": "",
+      "name": "totalGames",
+      "result": "_"
+    }
+  ],
+  "75733": [
+    {
+      "arguments": "",
+      "name": "get_wallet_data",
+      "result": "(int, slice, slice, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_wallet_data",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "get_wallet_data",
+      "result": "(int, slice, slice, cell, _)"
+    }
+  ],
+  "75745": [
+    {
+      "arguments": "int mode, cell msg, int seqno",
+      "name": "prepare_send_message_with_seqno",
+      "result": "cell"
+    }
+  ],
+  "75764": [
+    {
+      "arguments": "",
+      "name": "get_current_balance",
+      "result": "int"
+    }
+  ],
+  "75837": [
+    {
+      "arguments": "",
+      "name": "get_bank_balance",
+      "result": "_"
+    }
+  ],
+  "75887": [
+    {
+      "arguments": "",
+      "name": "get_is_signature_auth_allowed",
+      "result": "int"
+    }
+  ],
+  "75896": [
+    {
+      "arguments": "",
+      "name": "get_places",
+      "result": "cell"
+    }
+  ],
+  "75985": [
+    {
+      "arguments": "",
+      "name": "get_claimable_tokens",
+      "result": "int"
+    }
+  ],
+  "76127": [
+    {
+      "arguments": "",
+      "name": "round_info_main",
+      "result": "var"
+    }
+  ],
+  "76153": [
+    {
+      "arguments": "",
+      "name": "getLastwinner",
+      "result": "_"
+    }
+  ],
+  "76254": [
+    {
+      "arguments": "slice owner_address",
+      "name": "get_bonding_curve_address",
+      "result": "slice"
+    }
+  ],
+  "76255": [
+    {
+      "arguments": "",
+      "name": "get_winner_ticket",
+      "result": "_"
+    }
+  ],
+  "76344": [
+    {
+      "arguments": "",
+      "name": "get_woofi_data",
+      "result": "(int, int, int, int, slice, slice)"
+    }
+  ],
+  "76383": [
+    {
+      "arguments": "int target_chain_id, slice jetton_address",
+      "name": "get_is_jetton_support",
+      "result": "(int)"
+    }
+  ],
+  "76630": [
+    {
+      "arguments": "slice $$user",
+      "name": "userWallet",
+      "result": "_"
+    }
+  ],
+  "76643": [
+    {
+      "arguments": "slice $$user",
+      "name": "childAddress",
+      "result": "_"
+    },
+    {
+      "arguments": "slice $$owner",
+      "name": "childAddress",
+      "result": "_"
+    }
+  ],
+  "76646": [
+    {
+      "arguments": "",
+      "name": "get_members_raw",
+      "result": "_"
+    }
+  ],
+  "76838": [
+    {
+      "arguments": "",
+      "name": "get_bank_address",
+      "result": "slice"
+    }
+  ],
+  "77056": [
+    {
+      "arguments": "int index",
+      "name": "get_guardian_set",
+      "result": "(int, cell, int)"
+    }
+  ],
+  "77128": [
+    {
+      "arguments": "",
+      "name": "get_surplus",
+      "result": "int"
+    }
+  ],
+  "77200": [
+    {
+      "arguments": "",
+      "name": "get_profile",
+      "result": "slice"
+    }
+  ],
+  "77281": [
+    {
+      "arguments": "",
+      "name": "getOwnerFee",
+      "result": "int"
+    }
+  ],
+  "77286": [
+    {
+      "arguments": "",
+      "name": "metadata",
+      "result": "_"
+    }
+  ],
+  "77321": [
+    {
+      "arguments": "",
+      "name": "get_controller",
+      "result": "_"
+    }
+  ],
+  "77387": [
+    {
+      "arguments": "",
+      "name": "get_claim_data",
+      "result": "(int, int, int, slice, slice, cell, cell, int)"
+    }
+  ],
+  "77418": [
+    {
+      "arguments": "",
+      "name": "get_debug_info",
+      "result": "(cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_debug_info",
+      "result": "(int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_debug_info",
+      "result": "(slice)"
+    }
+  ],
+  "77503": [
+    {
+      "arguments": "",
+      "name": "getTokensKeys",
+      "result": "(cell)"
+    }
+  ],
+  "77602": [
+    {
+      "arguments": "",
+      "name": "get_chain_id",
+      "result": "int"
+    }
+  ],
+  "77680": [
+    {
+      "arguments": "",
+      "name": "royalty_params",
+      "result": "(int, int, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "royalty_params",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "royalty_params",
+      "result": "(int, int, int, int, slice)"
+    }
+  ],
+  "77762": [
+    {
+      "arguments": "",
+      "name": "get_loan_data",
+      "result": "cell"
+    }
+  ],
+  "77941": [
+    {
+      "arguments": "",
+      "name": "globalStats",
+      "result": "_"
+    }
+  ],
+  "77995": [
+    {
+      "arguments": "",
+      "name": "supply",
+      "result": "_"
+    }
+  ],
+  "78070": [
+    {
+      "arguments": "",
+      "name": "get_jetton_extra_data",
+      "result": "(slice)"
+    }
+  ],
+  "78160": [
+    {
+      "arguments": "",
+      "name": "getPrincipals",
+      "result": "cell"
+    }
+  ],
+  "78165": [
+    {
+      "arguments": "",
+      "name": "getter",
+      "result": "_"
+    }
+  ],
+  "78177": [
+    {
+      "arguments": "",
+      "name": "Periods",
+      "result": "_"
+    }
+  ],
+  "78190": [
+    {
+      "arguments": "",
+      "name": "get_telemint_token_name",
+      "result": "slice"
+    }
+  ],
+  "78252": [
+    {
+      "arguments": "",
+      "name": "get_account_data",
+      "result": "(slice, slice, int, int, int)"
+    }
+  ],
+  "78275": [
+    {
+      "arguments": "",
+      "name": "are_global_deposits_blocked",
+      "result": "int"
+    }
+  ],
+  "78320": [
+    {
+      "arguments": "",
+      "name": "get_assets_rates",
+      "result": "(cell)"
+    }
+  ],
+  "78340": [
+    {
+      "arguments": "",
+      "name": "$__gen_get_roundInfo",
+      "result": "_"
+    }
+  ],
+  "78411": [
+    {
+      "arguments": "",
+      "name": "get_players_current",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "get_players_current",
+      "result": "_"
+    }
+  ],
+  "78427": [
+    {
+      "arguments": "int price_feed_id",
+      "name": "get_ema_price_unsafe",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "78491": [
+    {
+      "arguments": "",
+      "name": "get_jetton_balance",
+      "result": "(int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_balance",
+      "result": "int"
+    }
+  ],
+  "78521": [
+    {
+      "arguments": "",
+      "name": "status",
+      "result": "_"
+    }
+  ],
+  "78579": [
+    {
+      "arguments": "",
+      "name": "get_owner_address",
+      "result": "slice"
+    },
+    {
+      "arguments": "",
+      "name": "get_owner_address",
+      "result": "(slice)"
+    }
+  ],
+  "78585": [
+    {
+      "arguments": "",
+      "name": "getBet",
+      "result": "int"
+    }
+  ],
+  "78598": [
+    {
+      "arguments": "",
+      "name": "getVariableBorrowAPY",
+      "result": "int"
+    }
+  ],
+  "78636": [
+    {
+      "arguments": "int n",
+      "name": "get_requests_cost",
+      "result": "int"
+    }
+  ],
+  "78767": [
+    {
+      "arguments": "int fwd_fee, cell withdraw_user_message",
+      "name": "withdraw_min_attachment",
+      "result": "int"
+    }
+  ],
+  "78829": [
+    {
+      "arguments": "",
+      "name": "get_telemint_auction_config",
+      "result": "(slice, int, int, int, int, int)"
+    }
+  ],
+  "78946": [
+    {
+      "arguments": "",
+      "name": "nextProposalId",
+      "result": "_"
+    }
+  ],
+  "78989": [
+    {
+      "arguments": "slice address",
+      "name": "get_user",
+      "result": "_"
+    }
+  ],
+  "79052": [
+    {
+      "arguments": "",
+      "name": "get_auction_data",
+      "result": "(int, int, int, slice, slice, slice, int, slice, int, slice, int, int, slice, int, int, int, int, int, int, int, int, int)"
+    }
+  ],
+  "79085": [
+    {
+      "arguments": "",
+      "name": "get_unfulfilled",
+      "result": "int"
+    }
+  ],
+  "79126": [
+    {
+      "arguments": "",
+      "name": "sequence",
+      "result": "int"
+    }
+  ],
+  "79236": [
+    {
+      "arguments": "slice address",
+      "name": "get_subscription_info",
+      "result": "(int, int, int, int, int, int)"
+    }
+  ],
+  "79252": [
+    {
+      "arguments": "",
+      "name": "past_elections",
+      "result": "tuple"
+    }
+  ],
+  "79348": [
+    {
+      "arguments": "",
+      "name": "get_last",
+      "result": "_"
+    }
+  ],
+  "79475": [
+    {
+      "arguments": "",
+      "name": "get_smct_balance",
+      "result": "int"
+    }
+  ],
+  "79488": [
+    {
+      "arguments": "",
+      "name": "get_jetton_address",
+      "result": "slice"
+    }
+  ],
+  "79674": [
+    {
+      "arguments": "",
+      "name": "get_nft_api_info",
+      "result": "(int, cell)"
+    }
+  ],
+  "79713": [
+    {
+      "arguments": "",
+      "name": "payments",
+      "result": "_"
+    }
+  ],
+  "79847": [
+    {
+      "arguments": "",
+      "name": "get_lottery_data",
+      "result": "(slice, slice, cell, cell, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_lottery_data",
+      "result": "(int, int, int, int, int, cell)"
+    }
+  ],
+  "79882": [
+    {
+      "arguments": "",
+      "name": "claimed",
+      "result": "_"
+    }
+  ],
+  "79906": [
+    {
+      "arguments": "",
+      "name": "debug_return_admin_address",
+      "result": "(slice)"
+    }
+  ],
+  "79926": [
+    {
+      "arguments": "",
+      "name": "get_stake_data",
+      "result": "(int, int, int, int, int, int, int)"
+    }
+  ],
+  "79945": [
+    {
+      "arguments": "int count",
+      "name": "get_latest_claims",
+      "result": "(cell)"
+    }
+  ],
+  "79965": [
+    {
+      "arguments": "slice $$address",
+      "name": "userStats",
+      "result": "_"
+    }
+  ],
+  "80040": [
+    {
+      "arguments": "",
+      "name": "getRandom",
+      "result": "_"
+    }
+  ],
+  "80083": [
+    {
+      "arguments": "",
+      "name": "state",
+      "result": "_"
+    }
+  ],
+  "80108": [
+    {
+      "arguments": "slice address",
+      "name": "get_lend_info",
+      "result": "cell"
+    }
+  ],
+  "80182": [
+    {
+      "arguments": "",
+      "name": "getCountPlay",
+      "result": "int"
+    }
+  ],
+  "80276": [
+    {
+      "arguments": "int x, int y",
+      "name": "sum",
+      "result": "int"
+    },
+    {
+      "arguments": "slice x, slice y",
+      "name": "sum",
+      "result": "slice"
+    }
+  ],
+  "80349": [
+    {
+      "arguments": "int now_time, int last_withdraw_time, int total_user_deposit",
+      "name": "get_amount_to_withdraw",
+      "result": "int"
+    }
+  ],
+  "80484": [
+    {
+      "arguments": "int key",
+      "name": "get_key",
+      "result": "(int, slice)"
+    }
+  ],
+  "80489": [
+    {
+      "arguments": "slice validator_address",
+      "name": "get_validator_points",
+      "result": "(int)"
+    }
+  ],
+  "80533": [
+    {
+      "arguments": "",
+      "name": "participant_list",
+      "result": "_"
+    }
+  ],
+  "80578": [
+    {
+      "arguments": "int wc, int addr_hash",
+      "name": "is_plugin_installed",
+      "result": "int"
+    }
+  ],
+  "80594": [
+    {
+      "arguments": "",
+      "name": "get_staking_master_data",
+      "result": "(int, int, int, int, int, int, int, int, slice, slice, cell, cell, cell, cell)"
+    }
+  ],
+  "80597": [
+    {
+      "arguments": "",
+      "name": "get_owners",
+      "result": "(slice, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_owners",
+      "result": "(cell, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_owners",
+      "result": "cell"
+    }
+  ],
+  "80733": [
+    {
+      "arguments": "int $$value",
+      "name": "msg_value",
+      "result": "_"
+    }
+  ],
+  "80809": [
+    {
+      "arguments": "",
+      "name": "value",
+      "result": "_"
+    }
+  ],
+  "80955": [
+    {
+      "arguments": "",
+      "name": "get_active",
+      "result": "int"
+    }
+  ],
+  "81074": [
+    {
+      "arguments": "",
+      "name": "get_external_id",
+      "result": "int"
+    }
+  ],
+  "81127": [
+    {
+      "arguments": "cell a, cell b",
+      "name": "merge_inner_queries",
+      "result": "cell"
+    }
+  ],
+  "81227": [
+    {
+      "arguments": "",
+      "name": "get_timelock_controller_data",
+      "result": "(int, int, cell, cell, cell, cell, cell)"
+    }
+  ],
+  "81397": [
+    {
+      "arguments": "",
+      "name": "get_token_symbol",
+      "result": "slice"
+    }
+  ],
+  "81493": [
+    {
+      "arguments": "",
+      "name": "get_loan_state",
+      "result": "var"
+    }
+  ],
+  "81627": [
+    {
+      "arguments": "",
+      "name": "get_jetton_master",
+      "result": "slice"
+    }
+  ],
+  "81765": [
+    {
+      "arguments": "",
+      "name": "get_pause_controller",
+      "result": "(slice)"
+    }
+  ],
+  "81855": [
+    {
+      "arguments": "",
+      "name": "get_the_latest_flags",
+      "result": "int"
+    }
+  ],
+  "82027": [
+    {
+      "arguments": "",
+      "name": "statementsCount",
+      "result": "_"
+    }
+  ],
+  "82081": [
+    {
+      "arguments": "",
+      "name": "get_plugin_list",
+      "result": "tuple"
+    }
+  ],
+  "82138": [
+    {
+      "arguments": "",
+      "name": "debug_load_claims_data",
+      "result": "(cell)"
+    }
+  ],
+  "82203": [
+    {
+      "arguments": "slice owner_address",
+      "name": "get_buy_amount",
+      "result": "(int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_buy_amount",
+      "result": "int"
+    }
+  ],
+  "82249": [
+    {
+      "arguments": "slice owner_address",
+      "name": "get_reward_claimer_wallet_address",
+      "result": "slice"
+    }
+  ],
+  "82338": [
+    {
+      "arguments": "slice subdomain, int category",
+      "name": "dnsresolve",
+      "result": "(int, cell)"
+    },
+    {
+      "arguments": "slice domain, int category",
+      "name": "dnsresolve",
+      "result": "(int, cell)"
+    }
+  ],
+  "82406": [
+    {
+      "arguments": "",
+      "name": "get_all_claims",
+      "result": "(cell)"
+    }
+  ],
+  "82498": [
+    {
+      "arguments": "int round_since",
+      "name": "get_participation",
+      "result": "var"
+    }
+  ],
+  "82499": [
+    {
+      "arguments": "int wallet_addr",
+      "name": "get_discount_user",
+      "result": "int"
+    }
+  ],
+  "82559": [
+    {
+      "arguments": "",
+      "name": "get_issued_bills",
+      "result": "(int, int)"
+    }
+  ],
+  "82599": [
+    {
+      "arguments": "int voting_id",
+      "name": "get_voting_address",
+      "result": "slice"
+    }
+  ],
+  "82634": [
+    {
+      "arguments": "int role, slice account",
+      "name": "get_has_role",
+      "result": "int"
+    }
+  ],
+  "82642": [
+    {
+      "arguments": "",
+      "name": "get_relay_data",
+      "result": "(slice, int, int, cell, int, int, int)"
+    }
+  ],
+  "82706": [
+    {
+      "arguments": "",
+      "name": "get_smc_balance",
+      "result": "int"
+    }
+  ],
+  "83025": [
+    {
+      "arguments": "",
+      "name": "get_total_cap_raised",
+      "result": "(int)"
+    }
+  ],
+  "83064": [
+    {
+      "arguments": "slice borrower, int round_since",
+      "name": "get_loan_address",
+      "result": "slice"
+    },
+    {
+      "arguments": "slice validator, int round_since",
+      "name": "get_loan_address",
+      "result": "slice"
+    }
+  ],
+  "83223": [
+    {
+      "arguments": "",
+      "name": "get_status",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "get_status",
+      "result": "(int)"
+    }
+  ],
+  "83225": [
+    {
+      "arguments": "",
+      "name": "get_ton_balance",
+      "result": "int"
+    }
+  ],
+  "83352": [
+    {
+      "arguments": "",
+      "name": "luckNum",
+      "result": "_"
+    }
+  ],
+  "83474": [
+    {
+      "arguments": "",
+      "name": "participant_list_extended",
+      "result": "_"
+    }
+  ],
+  "83607": [
+    {
+      "arguments": "",
+      "name": "get_airdrop_status",
+      "result": "(int, int, slice, slice, cell)"
+    }
+  ],
+  "83622": [
+    {
+      "arguments": "",
+      "name": "get_next_payouts",
+      "result": "(int, int, int)"
+    }
+  ],
+  "83648": [
+    {
+      "arguments": "",
+      "name": "dummy_supply_user_message",
+      "result": "cell"
+    }
+  ],
+  "83664": [
+    {
+      "arguments": "int bits, int refs, int expire_in",
+      "name": "complaint_storage_price",
+      "result": "int"
+    }
+  ],
+  "83971": [
+    {
+      "arguments": "",
+      "name": "get_version",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "get_version",
+      "result": "(int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_version",
+      "result": "slice"
+    }
+  ],
+  "84011": [
+    {
+      "arguments": "",
+      "name": "lockup_data",
+      "result": "(slice, slice, int, cell)"
+    }
+  ],
+  "84064": [
+    {
+      "arguments": "",
+      "name": "gasParticipate",
+      "result": "_"
+    }
+  ],
+  "84093": [
+    {
+      "arguments": "",
+      "name": "get_admin_wallet",
+      "result": "slice"
+    },
+    {
+      "arguments": "",
+      "name": "get_admin_wallet",
+      "result": "(slice)"
+    }
+  ],
+  "84155": [
+    {
+      "arguments": "",
+      "name": "list_nominators",
+      "result": "tuple"
+    }
+  ],
+  "84405": [
+    {
+      "arguments": "",
+      "name": "get_fees",
+      "result": "var"
+    },
+    {
+      "arguments": "",
+      "name": "get_fees",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "84434": [
+    {
+      "arguments": "int fwd_fee",
+      "name": "claim_asset_reserves_min_attachment",
+      "result": "int"
+    }
+  ],
+  "84600": [
+    {
+      "arguments": "",
+      "name": "get_init_storage_fee",
+      "result": "int"
+    }
+  ],
+  "84619": [
+    {
+      "arguments": "",
+      "name": "completed",
+      "result": "_"
+    }
+  ],
+  "84634": [
+    {
+      "arguments": "",
+      "name": "get_jwallet_address",
+      "result": "slice"
+    }
+  ],
+  "84642": [
+    {
+      "arguments": "",
+      "name": "get_auto_expiration",
+      "result": "int"
+    }
+  ],
+  "84651": [
+    {
+      "arguments": "",
+      "name": "get_trusted_hashpart",
+      "result": "int"
+    }
+  ],
+  "84736": [
+    {
+      "arguments": "int amountIn, int reserveIn, int reserveOut",
+      "name": "get_amount_out",
+      "result": "int"
+    }
+  ],
+  "84873": [
+    {
+      "arguments": "slice msg",
+      "name": "verify_message",
+      "result": "slice"
+    }
+  ],
+  "84936": [
+    {
+      "arguments": "int controller_id, slice validator",
+      "name": "get_controller_address",
+      "result": "(slice)"
+    }
+  ],
+  "85003": [
+    {
+      "arguments": "",
+      "name": "getAdmin",
+      "result": "slice"
+    },
+    {
+      "arguments": "",
+      "name": "getAdmin",
+      "result": "(slice)"
+    }
+  ],
+  "85023": [
+    {
+      "arguments": "",
+      "name": "get_sale_data",
+      "result": "(int, int, int, slice, slice, slice, int, slice, int, slice, int, int, slice, int, int, int, int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_sale_data",
+      "result": "(int, int, int, slice, slice, slice, int, slice, int, slice, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_sale_data",
+      "result": "(slice, slice, slice, int, int, slice, int, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_sale_data",
+      "result": "(int, slice, slice, int, int, int, int, int, int)"
+    }
+  ],
+  "85113": [
+    {
+      "arguments": "",
+      "name": "pointer",
+      "result": "_"
+    }
+  ],
+  "85212": [
+    {
+      "arguments": "",
+      "name": "get_ytoken",
+      "result": "(slice)"
+    }
+  ],
+  "85251": [
+    {
+      "arguments": "slice addr",
+      "name": "get_ref_address",
+      "result": "(slice)"
+    },
+    {
+      "arguments": "slice owner_address",
+      "name": "get_ref_address",
+      "result": "slice"
+    }
+  ],
+  "85283": [
+    {
+      "arguments": "",
+      "name": "get_members",
+      "result": "_"
+    }
+  ],
+  "85323": [
+    {
+      "arguments": "",
+      "name": "get_marketing_fee",
+      "result": "_"
+    }
+  ],
+  "85435": [
+    {
+      "arguments": "slice address",
+      "name": "get_user_nft_count",
+      "result": "int"
+    }
+  ],
+  "85513": [
+    {
+      "arguments": "",
+      "name": "get_start_time",
+      "result": "(int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_start_time",
+      "result": "int"
+    }
+  ],
+  "85529": [
+    {
+      "arguments": "",
+      "name": "get_processing_price",
+      "result": "int"
+    }
+  ],
+  "85587": [
+    {
+      "arguments": "",
+      "name": "totalBalance",
+      "result": "_"
+    }
+  ],
+  "85680": [
+    {
+      "arguments": "",
+      "name": "totalTon",
+      "result": "_"
+    }
+  ],
+  "85694": [
+    {
+      "arguments": "",
+      "name": "getCoinflipJettonAddress",
+      "result": "slice"
+    }
+  ],
+  "85741": [
+    {
+      "arguments": "",
+      "name": "frozen_addresses",
+      "result": "tuple"
+    }
+  ],
+  "85762": [
+    {
+      "arguments": "",
+      "name": "numberUsers",
+      "result": "_"
+    }
+  ],
+  "85765": [
+    {
+      "arguments": "",
+      "name": "getppr",
+      "result": "int"
+    }
+  ],
+  "85845": [
+    {
+      "arguments": "",
+      "name": "get_the_last_sender",
+      "result": "slice"
+    }
+  ],
+  "85859": [
+    {
+      "arguments": "",
+      "name": "getppc",
+      "result": "int"
+    }
+  ],
+  "85871": [
+    {
+      "arguments": "int index",
+      "name": "get_nft_address_by_index",
+      "result": "slice"
+    },
+    {
+      "arguments": "int $$index",
+      "name": "get_nft_address_by_index",
+      "result": "_"
+    }
+  ],
+  "85882": [
+    {
+      "arguments": "int $$idx",
+      "name": "statementAddress",
+      "result": "_"
+    }
+  ],
+  "86118": [
+    {
+      "arguments": "",
+      "name": "claimInterval",
+      "result": "_"
+    }
+  ],
+  "86134": [
+    {
+      "arguments": "",
+      "name": "get_merkle_root",
+      "result": "int"
+    }
+  ],
+  "86146": [
+    {
+      "arguments": "",
+      "name": "get_counter_test",
+      "result": "int"
+    }
+  ],
+  "86228": [
+    {
+      "arguments": "int battle_index",
+      "name": "get_battle_address_by_index",
+      "result": "slice"
+    }
+  ],
+  "86326": [
+    {
+      "arguments": "",
+      "name": "get_fix_price_data",
+      "result": "(int, int, slice, slice, slice, int, slice, int, slice, int, int, int)"
+    }
+  ],
+  "86349": [
+    {
+      "arguments": "",
+      "name": "get_round_id",
+      "result": "int"
+    }
+  ],
+  "86357": [
+    {
+      "arguments": "slice $$owner",
+      "name": "account",
+      "result": "_"
+    }
+  ],
+  "86363": [
+    {
+      "arguments": "",
+      "name": "getAssetsData",
+      "result": "(cell)"
+    }
+  ],
+  "86383": [
+    {
+      "arguments": "",
+      "name": "getStore",
+      "result": "(cell)"
+    }
+  ],
+  "86417": [
+    {
+      "arguments": "int event_index",
+      "name": "get_event_address",
+      "result": "slice"
+    }
+  ],
+  "86473": [
+    {
+      "arguments": "",
+      "name": "get_subscription_end",
+      "result": "int"
+    }
+  ],
+  "86630": [
+    {
+      "arguments": "",
+      "name": "nft",
+      "result": "_"
+    }
+  ],
+  "86683": [
+    {
+      "arguments": "int $$idx",
+      "name": "proStatementAddress",
+      "result": "_"
+    }
+  ],
+  "86831": [
+    {
+      "arguments": "",
+      "name": "get_proxy_ton_data",
+      "result": "(int, int, int, int, slice, slice, slice, slice)"
+    }
+  ],
+  "86905": [
+    {
+      "arguments": "",
+      "name": "get3",
+      "result": "int"
+    }
+  ],
+  "86943": [
+    {
+      "arguments": "",
+      "name": "get_transaction_fee",
+      "result": "_"
+    }
+  ],
+  "86958": [
+    {
+      "arguments": "",
+      "name": "last_transaction",
+      "result": "int"
+    }
+  ],
+  "87035": [
+    {
+      "arguments": "",
+      "name": "getSum",
+      "result": "(int)"
+    }
+  ],
+  "87091": [
+    {
+      "arguments": "",
+      "name": "get_oracle_address",
+      "result": "(slice)"
+    }
+  ],
+  "87148": [
+    {
+      "arguments": "",
+      "name": "get_max_burnable_tokens",
+      "result": "int"
+    }
+  ],
+  "87288": [
+    {
+      "arguments": "",
+      "name": "get_max_bet_amount",
+      "result": "int"
+    }
+  ],
+  "87329": [
+    {
+      "arguments": "cell arg",
+      "name": "getter_with_cell_arg",
+      "result": "cell"
+    }
+  ],
+  "87450": [
+    {
+      "arguments": "",
+      "name": "past_election_ids",
+      "result": "tuple"
+    }
+  ],
+  "87506": [
+    {
+      "arguments": "int $$daoId",
+      "name": "daoAddress",
+      "result": "_"
+    }
+  ],
+  "87569": [
+    {
+      "arguments": "",
+      "name": "supported_interfaces",
+      "result": "_"
+    }
+  ],
+  "87577": [
+    {
+      "arguments": "",
+      "name": "get_subscribers",
+      "result": "int"
+    }
+  ],
+  "87674": [
+    {
+      "arguments": "",
+      "name": "length",
+      "result": "_"
+    }
+  ],
+  "87677": [
+    {
+      "arguments": "",
+      "name": "getConfig",
+      "result": "(cell)"
+    }
+  ],
+  "87689": [
+    {
+      "arguments": "",
+      "name": "codebase_version",
+      "result": "int"
+    }
+  ],
+  "87731": [
+    {
+      "arguments": "",
+      "name": "get_number_of_wins",
+      "result": "int"
+    }
+  ],
+  "87820": [
+    {
+      "arguments": "",
+      "name": "get_verifiers",
+      "result": "(slice)"
+    }
+  ],
+  "88105": [
+    {
+      "arguments": "int key",
+      "name": "getBalance",
+      "result": "(int)"
+    },
+    {
+      "arguments": "",
+      "name": "getBalance",
+      "result": "(int)"
+    },
+    {
+      "arguments": "",
+      "name": "getBalance",
+      "result": "int"
+    }
+  ],
+  "88186": [
+    {
+      "arguments": "",
+      "name": "get_test_request",
+      "result": "(int)"
+    }
+  ],
+  "88239": [
+    {
+      "arguments": "",
+      "name": "get_start_date",
+      "result": "(int)"
+    }
+  ],
+  "88271": [
+    {
+      "arguments": "int voting_id",
+      "name": "get_external_voting_data",
+      "result": "(tuple)"
+    }
+  ],
+  "88301": [
+    {
+      "arguments": "",
+      "name": "get_version_code",
+      "result": "int"
+    }
+  ],
+  "88334": [
+    {
+      "arguments": "slice address",
+      "name": "get_borrow_info",
+      "result": "cell"
+    }
+  ],
+  "88357": [
+    {
+      "arguments": "",
+      "name": "metadataName",
+      "result": "_"
+    }
+  ],
+  "88371": [
+    {
+      "arguments": "",
+      "name": "get_total_sale",
+      "result": "int"
+    }
+  ],
+  "88432": [
+    {
+      "arguments": "int controller_id, slice validator_address, int prev?, int update?",
+      "name": "get_loan",
+      "result": "(int, int)"
+    }
+  ],
+  "88510": [
+    {
+      "arguments": "slice owner_address, int campaign_id",
+      "name": "get_user_contract_address",
+      "result": "slice"
+    }
+  ],
+  "88527": [
+    {
+      "arguments": "int id",
+      "name": "get_operation_state",
+      "result": "int"
+    }
+  ],
+  "88726": [
+    {
+      "arguments": "",
+      "name": "meta",
+      "result": "_"
+    }
+  ],
+  "88835": [
+    {
+      "arguments": "int secret, slice alpha",
+      "name": "ecvrf::rist255::with_secret::prove",
+      "result": "slice"
+    }
+  ],
+  "88881": [
+    {
+      "arguments": "slice domain",
+      "name": "getexpiration",
+      "result": "int"
+    }
+  ],
+  "89059": [
+    {
+      "arguments": "",
+      "name": "get_governance_contract",
+      "result": "int"
+    }
+  ],
+  "89065": [
+    {
+      "arguments": "",
+      "name": "counter",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "counter",
+      "result": "int"
+    }
+  ],
+  "89104": [
+    {
+      "arguments": "slice resource_name",
+      "name": "get_claim",
+      "result": "(slice, slice, int)"
+    }
+  ],
+  "89259": [
+    {
+      "arguments": "",
+      "name": "orderHashListIndex",
+      "result": "_"
+    }
+  ],
+  "89411": [
+    {
+      "arguments": "int index",
+      "name": "get_nft_next_address_by_index",
+      "result": "slice"
+    }
+  ],
+  "89441": [
+    {
+      "arguments": "",
+      "name": "get_all_claims_step7",
+      "result": "(cell)"
+    }
+  ],
+  "89451": [
+    {
+      "arguments": "",
+      "name": "get_all_claims_step4",
+      "result": "(cell)"
+    }
+  ],
+  "89461": [
+    {
+      "arguments": "",
+      "name": "get_all_claims_step1",
+      "result": "(cell)"
+    }
+  ],
+  "89471": [
+    {
+      "arguments": "",
+      "name": "get_all_claims_step2",
+      "result": "(cell)"
+    }
+  ],
+  "89565": [
+    {
+      "arguments": "int time_period, int price_feed_id",
+      "name": "get_ema_price_no_older_than",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "89685": [
+    {
+      "arguments": "",
+      "name": "get_operation_pool",
+      "result": "int"
+    }
+  ],
+  "89780": [
+    {
+      "arguments": "",
+      "name": "get_nonce",
+      "result": "int"
+    }
+  ],
+  "89802": [
+    {
+      "arguments": "int a, int b",
+      "name": "add",
+      "result": "int"
+    }
+  ],
+  "89836": [
+    {
+      "arguments": "",
+      "name": "get::info_cell",
+      "result": "(cell)"
+    }
+  ],
+  "89869": [
+    {
+      "arguments": "",
+      "name": "get_wl",
+      "result": "cell"
+    }
+  ],
+  "89882": [
+    {
+      "arguments": "",
+      "name": "get_index",
+      "result": "int"
+    }
+  ],
+  "89946": [
+    {
+      "arguments": "cell query",
+      "name": "check_query_signatures",
+      "result": "(int, int)"
+    }
+  ],
+  "90015": [
+    {
+      "arguments": "",
+      "name": "get_authentic_data",
+      "result": "(slice, slice, int, cell)"
+    }
+  ],
+  "90032": [
+    {
+      "arguments": "",
+      "name": "dummy_withdraw_user_message",
+      "result": "cell"
+    }
+  ],
+  "90129": [
+    {
+      "arguments": "int amountOut, int reserveIn, int reserveOut",
+      "name": "get_amount_in",
+      "result": "int"
+    }
+  ],
+  "90205": [
+    {
+      "arguments": "",
+      "name": "get_providers",
+      "result": "_"
+    }
+  ],
+  "90382": [
+    {
+      "arguments": "int ownership_assigned_amount",
+      "name": "get_treasury_fees",
+      "result": "var"
+    }
+  ],
+  "90396": [
+    {
+      "arguments": "int asset_id",
+      "name": "get_asset_balance",
+      "result": "int"
+    }
+  ],
+  "90507": [
+    {
+      "arguments": "",
+      "name": "get_record_data",
+      "result": "(int, slice, slice, int)"
+    }
+  ],
+  "90519": [
+    {
+      "arguments": "",
+      "name": "get_positive",
+      "result": "int"
+    }
+  ],
+  "90550": [
+    {
+      "arguments": "int asset_id",
+      "name": "get_asset_total_principals",
+      "result": "(int, int)"
+    }
+  ],
+  "90649": [
+    {
+      "arguments": "",
+      "name": "get_publi_sale_status",
+      "result": "(int, int, slice, slice, cell)"
+    }
+  ],
+  "90671": [
+    {
+      "arguments": "",
+      "name": "get_draw_time",
+      "result": "int"
+    }
+  ],
+  "90703": [
+    {
+      "arguments": "",
+      "name": "get_bid_info",
+      "result": "(int, int, int, int, int)"
+    }
+  ],
+  "90706": [
+    {
+      "arguments": "",
+      "name": "get_exchange_rate",
+      "result": "int"
+    }
+  ],
+  "90805": [
+    {
+      "arguments": "",
+      "name": "get_lockups_data",
+      "result": "(int, int, cell)"
+    }
+  ],
+  "90842": [
+    {
+      "arguments": "int $$x, int $$y, int $$z",
+      "name": "testPercent",
+      "result": "_"
+    }
+  ],
+  "90888": [
+    {
+      "arguments": "",
+      "name": "get_complete_wallet_data",
+      "result": "(int, int, slice, slice, cell)"
+    }
+  ],
+  "90966": [
+    {
+      "arguments": "",
+      "name": "get_contract_id",
+      "result": "int"
+    }
+  ],
+  "91250": [
+    {
+      "arguments": "",
+      "name": "get_router_data",
+      "result": "(int, slice, cell, cell, cell, cell)"
+    }
+  ],
+  "91275": [
+    {
+      "arguments": "",
+      "name": "get_fees_info",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "91276": [
+    {
+      "arguments": "",
+      "name": "get_pricing",
+      "result": "cell"
+    }
+  ],
+  "91390": [
+    {
+      "arguments": "cell voting_body, int duration",
+      "name": "get_voting_results_address",
+      "result": "slice"
+    }
+  ],
+  "91460": [
+    {
+      "arguments": "",
+      "name": "get_randton_price",
+      "result": "(int, int)"
+    }
+  ],
+  "91580": [
+    {
+      "arguments": "",
+      "name": "get_hash",
+      "result": "int"
+    }
+  ],
+  "91643": [
+    {
+      "arguments": "",
+      "name": "get_request_ids",
+      "result": "(int, cell)"
+    }
+  ],
+  "91679": [
+    {
+      "arguments": "slice wallet_or_minter",
+      "name": "get_outbound_address",
+      "result": "slice"
+    }
+  ],
+  "91894": [
+    {
+      "arguments": "",
+      "name": "get_exchange_address",
+      "result": "(slice)"
+    }
+  ],
+  "91961": [
+    {
+      "arguments": "",
+      "name": "get_racer_data",
+      "result": "(int, slice, slice, int, int)"
+    }
+  ],
+  "91995": [
+    {
+      "arguments": "",
+      "name": "get_available",
+      "result": "_"
+    }
+  ],
+  "92195": [
+    {
+      "arguments": "",
+      "name": "get_item_index",
+      "result": "(int)"
+    }
+  ],
+  "92264": [
+    {
+      "arguments": "",
+      "name": "finished",
+      "result": "_"
+    }
+  ],
+  "92275": [
+    {
+      "arguments": "",
+      "name": "counter3",
+      "result": "_"
+    }
+  ],
+  "92313": [
+    {
+      "arguments": "",
+      "name": "getstdperiod",
+      "result": "int"
+    }
+  ],
+  "92367": [
+    {
+      "arguments": "",
+      "name": "lastReceivedAddress",
+      "result": "_"
+    }
+  ],
+  "92377": [
+    {
+      "arguments": "int asset_id",
+      "name": "get_asset_liquidity_by_id",
+      "result": "int"
+    }
+  ],
+  "92416": [
+    {
+      "arguments": "slice provider",
+      "name": "get_lp_account_proof",
+      "result": "int"
+    }
+  ],
+  "92649": [
+    {
+      "arguments": "",
+      "name": "get_wallet_fees",
+      "result": "var"
+    },
+    {
+      "arguments": "",
+      "name": "get_wallet_fees",
+      "result": "(int, int, int)"
+    }
+  ],
+  "92890": [
+    {
+      "arguments": "int user_count, int seed_int",
+      "name": "get_random_user",
+      "result": "int"
+    },
+    {
+      "arguments": "int user_count",
+      "name": "get_random_user",
+      "result": "int"
+    }
+  ],
+  "92918": [
+    {
+      "arguments": "",
+      "name": "get_invites",
+      "result": "(int)"
+    }
+  ],
+  "92996": [
+    {
+      "arguments": "",
+      "name": "get_code_version",
+      "result": "int"
+    }
+  ],
+  "93069": [
+    {
+      "arguments": "",
+      "name": "lazy_deployment_completed",
+      "result": "_"
+    }
+  ],
+  "93313": [
+    {
+      "arguments": "",
+      "name": "get_limit_boost",
+      "result": "int"
+    }
+  ],
+  "93365": [
+    {
+      "arguments": "",
+      "name": "get_pow_params",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "93372": [
+    {
+      "arguments": "",
+      "name": "get_public_keys",
+      "result": "cell"
+    }
+  ],
+  "93375": [
+    {
+      "arguments": "",
+      "name": "master",
+      "result": "_"
+    }
+  ],
+  "93579": [
+    {
+      "arguments": "int jetton_amount",
+      "name": "get_estimate_sell_result",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "93757": [
+    {
+      "arguments": "",
+      "name": "get_min_battle_value",
+      "result": "int"
+    }
+  ],
+  "93819": [
+    {
+      "arguments": "",
+      "name": "get_all_claimed_records",
+      "result": "(slice)"
+    }
+  ],
+  "93877": [
+    {
+      "arguments": "",
+      "name": "get_extra_fee",
+      "result": "int"
+    }
+  ],
+  "93893": [
+    {
+      "arguments": "",
+      "name": "data",
+      "result": "_"
+    }
+  ],
+  "93927": [
+    {
+      "arguments": "",
+      "name": "get_incoming_amount",
+      "result": "int"
+    }
+  ],
+  "94057": [
+    {
+      "arguments": "",
+      "name": "get_minter_data",
+      "result": "(int, int, int, int, slice, slice, cell, cell, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_minter_data",
+      "result": "(int, int, int, int, int)"
+    }
+  ],
+  "94132": [
+    {
+      "arguments": "",
+      "name": "get_current_guardian_set_index",
+      "result": "int"
+    }
+  ],
+  "94198": [
+    {
+      "arguments": "",
+      "name": "proStatementsCount",
+      "result": "_"
+    }
+  ],
+  "94263": [
+    {
+      "arguments": "",
+      "name": "get_wrap_data",
+      "result": "(int, int, slice, int, int, int, slice, int, cell, slice, slice)"
+    }
+  ],
+  "94361": [
+    {
+      "arguments": "",
+      "name": "get_extensions",
+      "result": "cell"
+    }
+  ],
+  "94461": [
+    {
+      "arguments": "int tonValue, int predecessor, int salt, slice account, cell msg_to_send",
+      "name": "get_hash_operation",
+      "result": "int"
+    }
+  ],
+  "94462": [
+    {
+      "arguments": "",
+      "name": "bc_reached",
+      "result": "int"
+    }
+  ],
+  "94604": [
+    {
+      "arguments": "int id",
+      "name": "get_claim_map_address",
+      "result": "slice"
+    }
+  ],
+  "94670": [
+    {
+      "arguments": "",
+      "name": "tid",
+      "result": "_"
+    }
+  ],
+  "94822": [
+    {
+      "arguments": "slice owner_address",
+      "name": "get_claim_address",
+      "result": "slice"
+    }
+  ],
+  "94965": [
+    {
+      "arguments": "",
+      "name": "keySupply",
+      "result": "_"
+    }
+  ],
+  "95011": [
+    {
+      "arguments": "",
+      "name": "get_gateway_data",
+      "result": "(slice, int, int, cell)"
+    }
+  ],
+  "95043": [
+    {
+      "arguments": "",
+      "name": "referrer",
+      "result": "_"
+    }
+  ],
+  "95062": [
+    {
+      "arguments": "",
+      "name": "get_count",
+      "result": "(int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_count",
+      "result": "_"
+    }
+  ],
+  "95089": [
+    {
+      "arguments": "",
+      "name": "HoldersCount",
+      "result": "_"
+    }
+  ],
+  "95099": [
+    {
+      "arguments": "",
+      "name": "get_supply_price",
+      "result": "(int, int)"
+    }
+  ],
+  "95117": [
+    {
+      "arguments": "",
+      "name": "get_storage_data",
+      "result": "(int, slice, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_storage_data",
+      "result": "(int, int, slice, slice, int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_storage_data",
+      "result": "(int, slice, slice, int, int, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_storage_data",
+      "result": "(slice, slice, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_storage_data",
+      "result": "(slice, slice, cell, cell, cell, cell, cell, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_storage_data",
+      "result": "(cell, cell, cell, cell, cell)"
+    }
+  ],
+  "95216": [
+    {
+      "arguments": "slice owner_address",
+      "name": "get_order_address",
+      "result": "slice"
+    },
+    {
+      "arguments": "int order_seqno",
+      "name": "get_order_address",
+      "result": "slice"
+    }
+  ],
+  "95486": [
+    {
+      "arguments": "",
+      "name": "get_settings",
+      "result": "(int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_settings",
+      "result": "(slice, cell, cell)"
+    }
+  ],
+  "95565": [
+    {
+      "arguments": "int query_id",
+      "name": "get_query",
+      "result": "(cell, cell, int)"
+    }
+  ],
+  "95653": [
+    {
+      "arguments": "",
+      "name": "get_state",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "get_state",
+      "result": "(int, int, int, int, int)"
+    }
+  ],
+  "95701": [
+    {
+      "arguments": "",
+      "name": "get_last_fill_up_time",
+      "result": "int"
+    }
+  ],
+  "95769": [
+    {
+      "arguments": "",
+      "name": "get_locks_data",
+      "result": "(cell, int, int)"
+    }
+  ],
+  "95787": [
+    {
+      "arguments": "",
+      "name": "get_jetton_data",
+      "result": "(int, int, slice, cell, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_data",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_data",
+      "result": "(int, slice, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_data",
+      "result": "(int, int, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_data",
+      "result": "(int, int, slice, cell, cell, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_data",
+      "result": "var"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_data",
+      "result": "(int, int, slice, int, int, slice, cell, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_data",
+      "result": "(int, int, slice, cell, cell, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_data",
+      "result": "(int, int, slice, cell, int, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_data",
+      "result": "(int, slice, cell, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_data",
+      "result": "(int, int, slice, cell, cell, int, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_data",
+      "result": "(int, int, slice, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_jetton_data",
+      "result": "(int, int, slice, cell, cell, slice)"
+    }
+  ],
+  "95897": [
+    {
+      "arguments": "int phash",
+      "name": "get_proposal",
+      "result": "_"
+    }
+  ],
+  "95967": [
+    {
+      "arguments": "",
+      "name": "get_value",
+      "result": "int"
+    }
+  ],
+  "95988": [
+    {
+      "arguments": "",
+      "name": "get_ticket_count",
+      "result": "int"
+    }
+  ],
+  "96026": [
+    {
+      "arguments": "",
+      "name": "get_bridge_data",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "get_bridge_data",
+      "result": "(int, int, cell, cell, int)"
+    }
+  ],
+  "96071": [
+    {
+      "arguments": "int round_fnd",
+      "name": "get_history_amnt_round",
+      "result": "var"
+    }
+  ],
+  "96094": [
+    {
+      "arguments": "",
+      "name": "id",
+      "result": "_"
+    }
+  ],
+  "96244": [
+    {
+      "arguments": "",
+      "name": "get_next_sequence",
+      "result": "int"
+    }
+  ],
+  "96317": [
+    {
+      "arguments": "",
+      "name": "get_voting_code",
+      "result": "cell"
+    }
+  ],
+  "96339": [
+    {
+      "arguments": "",
+      "name": "msgFee",
+      "result": "_"
+    }
+  ],
+  "96360": [
+    {
+      "arguments": "",
+      "name": "getGuaranteedPrize",
+      "result": "int"
+    }
+  ],
+  "96443": [
+    {
+      "arguments": "",
+      "name": "get_locker_wallet_data",
+      "result": "(slice, cell, slice, slice, cell, int, int, int, int)"
+    }
+  ],
+  "96601": [
+    {
+      "arguments": "int wallet_addr",
+      "name": "compute_returned_stake",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "get_source_item_data",
+      "result": "(int, int, slice, cell)"
+    }
+  ],
+  "96644": [
+    {
+      "arguments": "",
+      "name": "get_pools",
+      "result": "cell"
+    }
+  ],
+  "96778": [
+    {
+      "arguments": "",
+      "name": "metadataVersion",
+      "result": "_"
+    }
+  ],
+  "96864": [
+    {
+      "arguments": "",
+      "name": "get_left_goal",
+      "result": "(int, int)"
+    }
+  ],
+  "96884": [
+    {
+      "arguments": "slice user_address",
+      "name": "get_badge_address_by_user_address",
+      "result": "slice"
+    }
+  ],
+  "97053": [
+    {
+      "arguments": "",
+      "name": "get_current_masterchain_storage_prices",
+      "result": "(int, int)"
+    }
+  ],
+  "97057": [
+    {
+      "arguments": "",
+      "name": "get_commission",
+      "result": "int"
+    }
+  ],
+  "97082": [
+    {
+      "arguments": "",
+      "name": "get_admin_address",
+      "result": "slice"
+    },
+    {
+      "arguments": "",
+      "name": "get_admin_address",
+      "result": "(slice)"
+    }
+  ],
+  "97144": [
+    {
+      "arguments": "",
+      "name": "get_supervisor",
+      "result": "slice"
+    }
+  ],
+  "97265": [
+    {
+      "arguments": "",
+      "name": "get_salt",
+      "result": "int"
+    }
+  ],
+  "97373": [
+    {
+      "arguments": "int proof",
+      "name": "get_address",
+      "result": "slice"
+    },
+    {
+      "arguments": "",
+      "name": "get_address",
+      "result": "slice"
+    }
+  ],
+  "97456": [
+    {
+      "arguments": "slice $$adr",
+      "name": "getHolderInfo",
+      "result": "_"
+    }
+  ],
+  "97494": [
+    {
+      "arguments": "",
+      "name": "get_stoken",
+      "result": "(slice)"
+    }
+  ],
+  "97604": [
+    {
+      "arguments": "int asset_id",
+      "name": "getAssetRates",
+      "result": "(int, int)"
+    }
+  ],
+  "97636": [
+    {
+      "arguments": "",
+      "name": "contractSeqno",
+      "result": "_"
+    }
+  ],
+  "97637": [
+    {
+      "arguments": "",
+      "name": "get_total_wrapped",
+      "result": "(int)"
+    }
+  ],
+  "97645": [
+    {
+      "arguments": "",
+      "name": "load_data",
+      "result": "(slice)"
+    }
+  ],
+  "97681": [
+    {
+      "arguments": "",
+      "name": "get_min_exchange_amount",
+      "result": "int"
+    }
+  ],
+  "97746": [
+    {
+      "arguments": "",
+      "name": "get_telemint_auction_state",
+      "result": "(slice, int, int, int, int)"
+    }
+  ],
+  "97769": [
+    {
+      "arguments": "",
+      "name": "prev_exit_code",
+      "result": "int"
+    }
+  ],
+  "97849": [
+    {
+      "arguments": "",
+      "name": "get_governance_chain_id",
+      "result": "int"
+    }
+  ],
+  "97872": [
+    {
+      "arguments": "",
+      "name": "get_bank_data",
+      "result": "(int, slice, int, int, int, cell)"
+    }
+  ],
+  "98026": [
+    {
+      "arguments": "",
+      "name": "greeting",
+      "result": "_"
+    }
+  ],
+  "98063": [
+    {
+      "arguments": "int $$idx",
+      "name": "voteAddress",
+      "result": "_"
+    }
+  ],
+  "98098": [
+    {
+      "arguments": "",
+      "name": "get_token_name",
+      "result": "slice"
+    }
+  ],
+  "98156": [
+    {
+      "arguments": "",
+      "name": "debug_get_static_json",
+      "result": "(cell)"
+    }
+  ],
+  "98328": [
+    {
+      "arguments": "slice address",
+      "name": "get_user_chances",
+      "result": "(int)"
+    }
+  ],
+  "98401": [
+    {
+      "arguments": "",
+      "name": "get_int",
+      "result": "int"
+    }
+  ],
+  "98406": [
+    {
+      "arguments": "",
+      "name": "get_fix_price_data_v4",
+      "result": "_"
+    }
+  ],
+  "98431": [
+    {
+      "arguments": "",
+      "name": "get_one",
+      "result": "int"
+    }
+  ],
+  "98453": [
+    {
+      "arguments": "",
+      "name": "get_minting_complete_flag",
+      "result": "(int)"
+    }
+  ],
+  "98600": [
+    {
+      "arguments": "",
+      "name": "get_count_id",
+      "result": "int"
+    }
+  ],
+  "98627": [
+    {
+      "arguments": "",
+      "name": "get_nft_addr",
+      "result": "(int, int)"
+    }
+  ],
+  "98676": [
+    {
+      "arguments": "",
+      "name": "get_staking_status",
+      "result": "_"
+    }
+  ],
+  "98693": [
+    {
+      "arguments": "",
+      "name": "get_whitelist",
+      "result": "tuple"
+    }
+  ],
+  "98714": [
+    {
+      "arguments": "",
+      "name": "get_hoster_addr",
+      "result": "slice"
+    }
+  ],
+  "98825": [
+    {
+      "arguments": "",
+      "name": "get_assets_reserves",
+      "result": "(cell)"
+    }
+  ],
+  "98904": [
+    {
+      "arguments": "slice readable",
+      "name": "decode_base64_address",
+      "result": "slice"
+    }
+  ],
+  "98997": [
+    {
+      "arguments": "",
+      "name": "get_signer_public_key",
+      "result": "int"
+    }
+  ],
+  "99077": [
+    {
+      "arguments": "int index, cell individual_badge_content",
+      "name": "get_badge_content",
+      "result": "cell"
+    }
+  ],
+  "99394": [
+    {
+      "arguments": "",
+      "name": "get_tickets_limit",
+      "result": "int"
+    }
+  ],
+  "99437": [
+    {
+      "arguments": "",
+      "name": "get_lock_manager",
+      "result": "(cell)"
+    }
+  ],
+  "99563": [
+    {
+      "arguments": "",
+      "name": "launchSuccessful",
+      "result": "_"
+    }
+  ],
+  "100125": [
+    {
+      "arguments": "",
+      "name": "nextDaoId",
+      "result": "_"
+    }
+  ],
+  "100244": [
+    {
+      "arguments": "",
+      "name": "get_max_stake_value",
+      "result": "int"
+    }
+  ],
+  "100472": [
+    {
+      "arguments": "",
+      "name": "get_bet_max",
+      "result": "int"
+    }
+  ],
+  "100701": [
+    {
+      "arguments": "",
+      "name": "get_available_balance",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "get_available_balance",
+      "result": "int"
+    }
+  ],
+  "100707": [
+    {
+      "arguments": "",
+      "name": "get_last_index",
+      "result": "int"
+    }
+  ],
+  "100736": [
+    {
+      "arguments": "",
+      "name": "wallet_id",
+      "result": "int"
+    }
+  ],
+  "100800": [
+    {
+      "arguments": "",
+      "name": "get_contract_state",
+      "result": "(int, slice)"
+    }
+  ],
+  "100899": [
+    {
+      "arguments": "int $$idx",
+      "name": "conStatementAddress",
+      "result": "_"
+    }
+  ],
+  "100928": [
+    {
+      "arguments": "int id, int query_id",
+      "name": "message_signed_by_id?",
+      "result": "int"
+    }
+  ],
+  "101145": [
+    {
+      "arguments": "",
+      "name": "get_bets_count",
+      "result": "int"
+    }
+  ],
+  "101158": [
+    {
+      "arguments": "",
+      "name": "get_timeout",
+      "result": "int"
+    }
+  ],
+  "101243": [
+    {
+      "arguments": "",
+      "name": "get_end_time",
+      "result": "(int)"
+    }
+  ],
+  "101293": [
+    {
+      "arguments": "slice token",
+      "name": "is_supported_data",
+      "result": "(slice)"
+    }
+  ],
+  "101359": [
+    {
+      "arguments": "int round_fnd, int startIndexes",
+      "name": "get_history_ticket_users_250",
+      "result": "var"
+    }
+  ],
+  "101440": [
+    {
+      "arguments": "",
+      "name": "get_single_update_fee",
+      "result": "int"
+    }
+  ],
+  "101522": [
+    {
+      "arguments": "",
+      "name": "get_users",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "get_users",
+      "result": "cell"
+    }
+  ],
+  "101612": [
+    {
+      "arguments": "",
+      "name": "teid2",
+      "result": "_"
+    }
+  ],
+  "101636": [
+    {
+      "arguments": "",
+      "name": "get_winner",
+      "result": "slice"
+    }
+  ],
+  "101653": [
+    {
+      "arguments": "",
+      "name": "get_last_executed_governance_sequence",
+      "result": "int"
+    }
+  ],
+  "101699": [
+    {
+      "arguments": "int hash",
+      "name": "governance_action_is_consumed",
+      "result": "int"
+    }
+  ],
+  "101704": [
+    {
+      "arguments": "slice tt",
+      "name": "test_slice",
+      "result": "int"
+    }
+  ],
+  "101826": [
+    {
+      "arguments": "",
+      "name": "get_withdraw_data",
+      "result": "(int, int, int, int, int, int, int, slice, slice)"
+    }
+  ],
+  "102014": [
+    {
+      "arguments": "",
+      "name": "get_yolo_state",
+      "result": "(slice, slice, slice, int, int, int, cell, cell)"
+    }
+  ],
+  "102016": [
+    {
+      "arguments": "",
+      "name": "get_public_data",
+      "result": "(slice, int, int, int, int, int, int, int)"
+    }
+  ],
+  "102020": [
+    {
+      "arguments": "",
+      "name": "list_proposals",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "list_proposals",
+      "result": "tuple"
+    }
+  ],
+  "102182": [
+    {
+      "arguments": "",
+      "name": "get_sales_active",
+      "result": "int"
+    }
+  ],
+  "102203": [
+    {
+      "arguments": "",
+      "name": "get_rfq_pubkey",
+      "result": "int"
+    }
+  ],
+  "102214": [
+    {
+      "arguments": "",
+      "name": "get_op",
+      "result": "int"
+    }
+  ],
+  "102241": [
+    {
+      "arguments": "",
+      "name": "get_info",
+      "result": "slice"
+    }
+  ],
+  "102312": [
+    {
+      "arguments": "int credit, int interest",
+      "name": "required_balance_for_loan",
+      "result": "(int, int)"
+    }
+  ],
+  "102543": [
+    {
+      "arguments": "",
+      "name": "debug_check_admin_address",
+      "result": "(cell)"
+    }
+  ],
+  "102548": [
+    {
+      "arguments": "",
+      "name": "get_bridge_address",
+      "result": "slice"
+    }
+  ],
+  "102564": [
+    {
+      "arguments": "",
+      "name": "sale_params",
+      "result": "(int, int, int, int, int)"
+    }
+  ],
+  "102625": [
+    {
+      "arguments": "slice claimer_address",
+      "name": "get_claims",
+      "result": "(cell)"
+    }
+  ],
+  "102747": [
+    {
+      "arguments": "slice staker",
+      "name": "get_staking_wallet_address",
+      "result": "slice"
+    }
+  ],
+  "102829": [
+    {
+      "arguments": "int coins",
+      "name": "tons_for_coins",
+      "result": "var"
+    },
+    {
+      "arguments": "int coins",
+      "name": "tons_for_coins",
+      "result": "int"
+    }
+  ],
+  "102928": [
+    {
+      "arguments": "",
+      "name": "get_total_sold_jettons",
+      "result": "(int)"
+    }
+  ],
+  "102949": [
+    {
+      "arguments": "",
+      "name": "owner_address",
+      "result": "slice"
+    }
+  ],
+  "103007": [
+    {
+      "arguments": "",
+      "name": "get_pubKey",
+      "result": "int"
+    }
+  ],
+  "103277": [
+    {
+      "arguments": "slice check_address",
+      "name": "check_mint_accessor",
+      "result": "int"
+    }
+  ],
+  "103434": [
+    {
+      "arguments": "",
+      "name": "get_racing_data",
+      "result": "(int, slice, int, int, int)"
+    }
+  ],
+  "103459": [
+    {
+      "arguments": "",
+      "name": "conditionQuantity",
+      "result": "_"
+    }
+  ],
+  "103501": [
+    {
+      "arguments": "slice address",
+      "name": "get_gacha_count",
+      "result": "int"
+    }
+  ],
+  "103513": [
+    {
+      "arguments": "int at_time",
+      "name": "get_locked_amount",
+      "result": "int"
+    },
+    {
+      "arguments": "int now_time",
+      "name": "get_locked_amount",
+      "result": "int"
+    }
+  ],
+  "103517": [
+    {
+      "arguments": "",
+      "name": "get_last_sender",
+      "result": "slice"
+    }
+  ],
+  "103537": [
+    {
+      "arguments": "",
+      "name": "get_players_list_last_round",
+      "result": "(tuple)"
+    }
+  ],
+  "103584": [
+    {
+      "arguments": "int query_id",
+      "name": "get_query_state",
+      "result": "(int, int)"
+    }
+  ],
+  "103585": [
+    {
+      "arguments": "int asset_id",
+      "name": "getAssetTotals",
+      "result": "(int, int)"
+    }
+  ],
+  "103655": [
+    {
+      "arguments": "int day, int amount",
+      "name": "get_calculate_unlock_amount",
+      "result": "int"
+    }
+  ],
+  "103753": [
+    {
+      "arguments": "",
+      "name": "get_pool_info",
+      "result": "(int, int)"
+    }
+  ],
+  "103766": [
+    {
+      "arguments": "",
+      "name": "get_mp_addr",
+      "result": "(int, int)"
+    }
+  ],
+  "103768": [
+    {
+      "arguments": "",
+      "name": "::linear_unlock",
+      "result": "math"
+    }
+  ],
+  "103915": [
+    {
+      "arguments": "",
+      "name": "debug_check_extended_data",
+      "result": "(cell)"
+    }
+  ],
+  "103990": [
+    {
+      "arguments": "",
+      "name": "is_claimed",
+      "result": "int"
+    }
+  ],
+  "104009": [
+    {
+      "arguments": "cell storage",
+      "name": "master::upgrade::unpack_universal_storage",
+      "result": "(cell)"
+    }
+  ],
+  "104065": [
+    {
+      "arguments": "",
+      "name": "get_deployment_costs",
+      "result": "(int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_smc_data",
+      "result": "cell"
+    }
+  ],
+  "104182": [
+    {
+      "arguments": "",
+      "name": "get_contract_data",
+      "result": "(int, slice, int, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_data",
+      "result": "(int, int, slice, slice, int, cell, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_data",
+      "result": "(_)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_data",
+      "result": "(slice, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_data",
+      "result": "(int, slice, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_data",
+      "result": "(slice, slice, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_data",
+      "result": "(slice, slice, cell, cell, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_data",
+      "result": "(slice, int, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_data",
+      "result": "(slice, slice, int, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_data",
+      "result": "(slice, int, cell, int, int, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_data",
+      "result": "(slice, slice, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_data",
+      "result": "(cell)"
+    }
+  ],
+  "104230": [
+    {
+      "arguments": "int usdt_amount",
+      "name": "get_conversion_rate",
+      "result": "(int)"
+    }
+  ],
+  "104248": [
+    {
+      "arguments": "",
+      "name": "get_claimed",
+      "result": "(int)"
+    }
+  ],
+  "104268": [
+    {
+      "arguments": "",
+      "name": "getUIVariables",
+      "result": "(cell, cell, cell, cell)"
+    }
+  ],
+  "104494": [
+    {
+      "arguments": "",
+      "name": "get_contract_storage_data",
+      "result": "(int, slice, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_storage_data",
+      "result": "(int, int, slice, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_storage_data",
+      "result": "(int, int, slice, slice, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_storage_data",
+      "result": "(int, int, int, slice, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_storage_data",
+      "result": "(slice, int, slice)"
+    }
+  ],
+  "104500": [
+    {
+      "arguments": "",
+      "name": "get_ico_data",
+      "result": "(int, int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_ico_data",
+      "result": "(int, int, int, slice)"
+    }
+  ],
+  "104507": [
+    {
+      "arguments": "slice address",
+      "name": "get_has_admin_role",
+      "result": "(int)"
+    }
+  ],
+  "104601": [
+    {
+      "arguments": "",
+      "name": "load_current_token_supply",
+      "result": "int"
+    }
+  ],
+  "104624": [
+    {
+      "arguments": "",
+      "name": "get_balance_data",
+      "result": "int"
+    }
+  ],
+  "104682": [
+    {
+      "arguments": "int src_addr",
+      "name": "deposit_info",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "104816": [
+    {
+      "arguments": "slice user_address, slice jetton_wallet_address, slice jetton_master_address, int bet_outcome",
+      "name": "get_capper_address",
+      "result": "slice"
+    }
+  ],
+  "104837": [
+    {
+      "arguments": "int balance, slice owner_address, slice jetton_master_address, cell jetton_wallet_code",
+      "name": "get_calculate_jetton_wallet_state_init",
+      "result": "cell"
+    }
+  ],
+  "104932": [
+    {
+      "arguments": "",
+      "name": "get_pool_status",
+      "result": "_"
+    }
+  ],
+  "104989": [
+    {
+      "arguments": "",
+      "name": "get_limit",
+      "result": "(int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_limit",
+      "result": "(int, int, int, int, int)"
+    }
+  ],
+  "104992": [
+    {
+      "arguments": "",
+      "name": "get_tiers_data",
+      "result": "(cell)"
+    }
+  ],
+  "105015": [
+    {
+      "arguments": "",
+      "name": "get_order_data",
+      "result": "(int, slice, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_order_data",
+      "result": "_"
+    }
+  ],
+  "105028": [
+    {
+      "arguments": "int asset_id, int s_rate, int b_rate",
+      "name": "getAccountAssetBalance",
+      "result": "(int)"
+    }
+  ],
+  "105033": [
+    {
+      "arguments": "int verifier_id, int verified_code_cell_hash",
+      "name": "get_source_item_address",
+      "result": "slice"
+    }
+  ],
+  "105111": [
+    {
+      "arguments": "",
+      "name": "get_locked_balance",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "get_locked_balance",
+      "result": "_"
+    }
+  ],
+  "105192": [
+    {
+      "arguments": "",
+      "name": "debt",
+      "result": "_"
+    }
+  ],
+  "105239": [
+    {
+      "arguments": "",
+      "name": "$__gen_get_balance",
+      "result": "_"
+    }
+  ],
+  "105278": [
+    {
+      "arguments": "",
+      "name": "get_id",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "get_id",
+      "result": "(int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_id",
+      "result": "(slice)"
+    }
+  ],
+  "105340": [
+    {
+      "arguments": "slice place_address",
+      "name": "get_total_payments_by_place",
+      "result": "int"
+    }
+  ],
+  "105365": [
+    {
+      "arguments": "slice $$user",
+      "name": "userChildAddress",
+      "result": "_"
+    }
+  ],
+  "105387": [
+    {
+      "arguments": "int $$id",
+      "name": "$__gen_get_round",
+      "result": "_"
+    }
+  ],
+  "105405": [
+    {
+      "arguments": "",
+      "name": "get_balance_tree_count",
+      "result": "int"
+    }
+  ],
+  "105502": [
+    {
+      "arguments": "int id",
+      "name": "is_id_processed",
+      "result": "int"
+    }
+  ],
+  "105528": [
+    {
+      "arguments": "int balance, slice owner_address, slice jetton_master_address, cell jetton_wallet_code",
+      "name": "get_pack_jetton_wallet_data",
+      "result": "cell"
+    }
+  ],
+  "105653": [
+    {
+      "arguments": "int $$key",
+      "name": "payment",
+      "result": "_"
+    }
+  ],
+  "105673": [
+    {
+      "arguments": "slice name",
+      "name": "get_community_admin",
+      "result": "slice"
+    }
+  ],
+  "105734": [
+    {
+      "arguments": "",
+      "name": "get_burn_price",
+      "result": "(int)"
+    }
+  ],
+  "105809": [
+    {
+      "arguments": "",
+      "name": "get_contract_storage",
+      "result": "(int, slice, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_storage",
+      "result": "(int, slice, cell, cell, int, slice, slice)"
+    }
+  ],
+  "105854": [
+    {
+      "arguments": "cell asset_dynamics_collection",
+      "name": "getAccountBalances",
+      "result": "(cell)"
+    }
+  ],
+  "105902": [
+    {
+      "arguments": "",
+      "name": "get_fundraising_status",
+      "result": "(int)"
+    }
+  ],
+  "105942": [
+    {
+      "arguments": "cell asset_config_collection, cell asset_dynamics_collection, cell prices_packed",
+      "name": "getAggregatedBalances",
+      "result": "(int, int)"
+    }
+  ],
+  "105978": [
+    {
+      "arguments": "",
+      "name": "get_pending_owner",
+      "result": "(slice)"
+    }
+  ],
+  "106013": [
+    {
+      "arguments": "",
+      "name": "get_otoken_x_jetton_address",
+      "result": "(slice)"
+    }
+  ],
+  "106096": [
+    {
+      "arguments": "slice user",
+      "name": "hasLiked",
+      "result": "int"
+    }
+  ],
+  "106123": [
+    {
+      "arguments": "",
+      "name": "get_vault_data",
+      "result": "(int, slice, int, int, int)"
+    }
+  ],
+  "106254": [
+    {
+      "arguments": "int ton_amount",
+      "name": "get_estimate_buy_result",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "106409": [
+    {
+      "arguments": "slice domain, cell val",
+      "name": "calcprice",
+      "result": "int"
+    }
+  ],
+  "106469": [
+    {
+      "arguments": "",
+      "name": "totalRevenue",
+      "result": "_"
+    }
+  ],
+  "106484": [
+    {
+      "arguments": "",
+      "name": "get_all_data",
+      "result": "(slice, int, cell, cell, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_all_data",
+      "result": "(int, int, int, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_all_data",
+      "result": "(slice, slice, int, int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_all_data",
+      "result": "(int, int, int, int, slice, slice, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_all_data",
+      "result": "(slice, int, cell, cell, int, int, int, int, slice, cell, slice, int, int, int, int)"
+    }
+  ],
+  "106510": [
+    {
+      "arguments": "",
+      "name": "get_bcl_data",
+      "result": "var"
+    }
+  ],
+  "106661": [
+    {
+      "arguments": "int $$index",
+      "name": "proposalAddr",
+      "result": "_"
+    }
+  ],
+  "106753": [
+    {
+      "arguments": "",
+      "name": "debug_load_extended_data",
+      "result": "(cell)"
+    }
+  ],
+  "107119": [
+    {
+      "arguments": "slice signature_slice",
+      "name": "get_used_signature",
+      "result": "(int)"
+    }
+  ],
+  "107169": [
+    {
+      "arguments": "",
+      "name": "get_ban",
+      "result": "int"
+    }
+  ],
+  "107176": [
+    {
+      "arguments": "",
+      "name": "get_soft_cap",
+      "result": "(int)"
+    }
+  ],
+  "107242": [
+    {
+      "arguments": "",
+      "name": "get_tester",
+      "result": "int"
+    }
+  ],
+  "107450": [
+    {
+      "arguments": "slice sender",
+      "name": "get_purchased",
+      "result": "(int)"
+    }
+  ],
+  "107535": [
+    {
+      "arguments": "",
+      "name": "get_staking_contract_address",
+      "result": "slice"
+    }
+  ],
+  "107544": [
+    {
+      "arguments": "int hash, slice signature, int public_key",
+      "name": "verify_signature",
+      "result": "int"
+    },
+    {
+      "arguments": "int signer_pubkey, int hash, slice signature",
+      "name": "verify_signature",
+      "result": "int"
+    }
+  ],
+  "107621": [
+    {
+      "arguments": "",
+      "name": "debug_load_admin_address",
+      "result": "(slice)"
+    }
+  ],
+  "107643": [
+    {
+      "arguments": "",
+      "name": "get_marketplace_data",
+      "result": "(slice, slice, int, int, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_marketplace_data",
+      "result": "cell"
+    }
+  ],
+  "107668": [
+    {
+      "arguments": "int id",
+      "name": "get_messages_signed_by_id",
+      "result": "cell"
+    }
+  ],
+  "107698": [
+    {
+      "arguments": "",
+      "name": "get_is_paused",
+      "result": "(int)"
+    }
+  ],
+  "107709": [
+    {
+      "arguments": "slice address",
+      "name": "parseAddress",
+      "result": "(int, int)"
+    }
+  ],
+  "107808": [
+    {
+      "arguments": "",
+      "name": "get_master_data",
+      "result": "(int, slice, slice, int, int, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_master_data",
+      "result": "(int, int, int, int, int, slice, int, int, int)"
+    }
+  ],
+  "107885": [
+    {
+      "arguments": "",
+      "name": "get_nft_data",
+      "result": "(int, int, slice, slice, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_nft_data",
+      "result": "_"
+    }
+  ],
+  "108108": [
+    {
+      "arguments": "",
+      "name": "get_n_k",
+      "result": "(int, int)"
+    }
+  ],
+  "108194": [
+    {
+      "arguments": "int time_period, int price_feed_id",
+      "name": "get_price_no_older_than",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "108253": [
+    {
+      "arguments": "",
+      "name": "get::time",
+      "result": "(int, int)"
+    }
+  ],
+  "108327": [
+    {
+      "arguments": "",
+      "name": "get_reports",
+      "result": "cell"
+    }
+  ],
+  "108751": [
+    {
+      "arguments": "slice address",
+      "name": "get_user_bets_count",
+      "result": "int"
+    }
+  ],
+  "108777": [
+    {
+      "arguments": "",
+      "name": "get_last_clean_time",
+      "result": "int"
+    }
+  ],
+  "108894": [
+    {
+      "arguments": "",
+      "name": "get_jetton_manager",
+      "result": "(slice)"
+    }
+  ],
+  "108902": [
+    {
+      "arguments": "",
+      "name": "get_wallet_state",
+      "result": "(int, cell, int)"
+    }
+  ],
+  "108997": [
+    {
+      "arguments": "",
+      "name": "transno",
+      "result": "_"
+    }
+  ],
+  "109011": [
+    {
+      "arguments": "cell asset_config_collection, cell asset_dynamics_collection, cell prices_packed",
+      "name": "getAccountHealth",
+      "result": "(int)"
+    }
+  ],
+  "109017": [
+    {
+      "arguments": "",
+      "name": "votesCount",
+      "result": "_"
+    }
+  ],
+  "109150": [
+    {
+      "arguments": "",
+      "name": "get_marketing_wallet",
+      "result": "_"
+    }
+  ],
+  "109167": [
+    {
+      "arguments": "int usdt_amount",
+      "name": "get_ton_amount_to_mint",
+      "result": "(int)"
+    }
+  ],
+  "109240": [
+    {
+      "arguments": "",
+      "name": "get_owner",
+      "result": "slice"
+    },
+    {
+      "arguments": "",
+      "name": "get_owner",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "get_owner",
+      "result": "(slice)"
+    },
+    {
+      "arguments": "int public_key",
+      "name": "get_owner",
+      "result": "(int, int)"
+    }
+  ],
+  "109289": [
+    {
+      "arguments": "tuple $$data",
+      "name": "credit",
+      "result": "_"
+    }
+  ],
+  "109442": [
+    {
+      "arguments": "",
+      "name": "get_otoken_jetton_address",
+      "result": "(slice)"
+    }
+  ],
+  "109458": [
+    {
+      "arguments": "",
+      "name": "get_jetton_usdt_address",
+      "result": "slice"
+    }
+  ],
+  "109697": [
+    {
+      "arguments": "",
+      "name": "get_full_domain",
+      "result": "slice"
+    }
+  ],
+  "109750": [
+    {
+      "arguments": "",
+      "name": "claimAmount",
+      "result": "_"
+    }
+  ],
+  "109772": [
+    {
+      "arguments": "",
+      "name": "get_subwallet_id",
+      "result": "int"
+    }
+  ],
+  "109787": [
+    {
+      "arguments": "",
+      "name": "asc",
+      "result": "int"
+    }
+  ],
+  "109827": [
+    {
+      "arguments": "",
+      "name": "get_owner_info",
+      "result": "(slice, int)"
+    }
+  ],
+  "109876": [
+    {
+      "arguments": "",
+      "name": "get_lp_account_data",
+      "result": "(slice, slice, int, int)"
+    }
+  ],
+  "109893": [
+    {
+      "arguments": "",
+      "name": "get_user_submit_list",
+      "result": "_"
+    }
+  ],
+  "110214": [
+    {
+      "arguments": "",
+      "name": "get_editor",
+      "result": "slice"
+    }
+  ],
+  "110347": [
+    {
+      "arguments": "int ref_code",
+      "name": "ref_info",
+      "result": "(int)"
+    }
+  ],
+  "110401": [
+    {
+      "arguments": "int secret",
+      "name": "rist255::get_public_key",
+      "result": "int"
+    }
+  ],
+  "110524": [
+    {
+      "arguments": "",
+      "name": "debug_get_data_structure",
+      "result": "(cell)"
+    }
+  ],
+  "110627": [
+    {
+      "arguments": "",
+      "name": "get_jetton_wallets",
+      "result": "(slice, int, slice, int)"
+    }
+  ],
+  "110646": [
+    {
+      "arguments": "",
+      "name": "get_gas_base",
+      "result": "int"
+    }
+  ],
+  "110728": [
+    {
+      "arguments": "",
+      "name": "get_lucky_ticket",
+      "result": "int"
+    }
+  ],
+  "110786": [
+    {
+      "arguments": "",
+      "name": "coin_price",
+      "result": "var"
+    },
+    {
+      "arguments": "",
+      "name": "coin_price",
+      "result": "int"
+    }
+  ],
+  "110905": [
+    {
+      "arguments": "",
+      "name": "getOutAmount",
+      "result": "int"
+    }
+  ],
+  "111018": [
+    {
+      "arguments": "",
+      "name": "seqno",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "seqno",
+      "result": "_"
+    }
+  ],
+  "111033": [
+    {
+      "arguments": "slice jetton_wallet_address",
+      "name": "get_deposit_limit",
+      "result": "(int, int)"
+    }
+  ],
+  "111071": [
+    {
+      "arguments": "",
+      "name": "get_royalty_fee_addr",
+      "result": "(int, int)"
+    }
+  ],
+  "111154": [
+    {
+      "arguments": "",
+      "name": "get_fee_percent",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "get_fee_percent",
+      "result": "_"
+    }
+  ],
+  "111159": [
+    {
+      "arguments": "",
+      "name": "getAssetsConfig",
+      "result": "(cell)"
+    }
+  ],
+  "111168": [
+    {
+      "arguments": "",
+      "name": "get_now_time",
+      "result": "(int)"
+    }
+  ],
+  "111171": [
+    {
+      "arguments": "",
+      "name": "lastReceivedAddressFrom",
+      "result": "_"
+    }
+  ],
+  "111225": [
+    {
+      "arguments": "",
+      "name": "proposal_start_time",
+      "result": "(int)"
+    }
+  ],
+  "111253": [
+    {
+      "arguments": "",
+      "name": "processing_price",
+      "result": "int"
+    }
+  ],
+  "111437": [
+    {
+      "arguments": "",
+      "name": "get_orders",
+      "result": "var"
+    }
+  ],
+  "111439": [
+    {
+      "arguments": "",
+      "name": "is_signature_allowed",
+      "result": "int"
+    }
+  ],
+  "111472": [
+    {
+      "arguments": "",
+      "name": "config",
+      "result": "cell"
+    },
+    {
+      "arguments": "",
+      "name": "config",
+      "result": "_"
+    }
+  ],
+  "111586": [
+    {
+      "arguments": "",
+      "name": "get_unlock_data",
+      "result": "cell"
+    }
+  ],
+  "111593": [
+    {
+      "arguments": "",
+      "name": "getUserTokens",
+      "result": "_"
+    }
+  ],
+  "111837": [
+    {
+      "arguments": "",
+      "name": "get_block_data",
+      "result": "(slice, int, cell, int, int, int)"
+    }
+  ],
+  "111854": [
+    {
+      "arguments": "",
+      "name": "get_nonces",
+      "result": "(int, int, int, int, int)"
+    }
+  ],
+  "112131": [
+    {
+      "arguments": "int id",
+      "name": "get_redeem_map_address",
+      "result": "slice"
+    }
+  ],
+  "112310": [
+    {
+      "arguments": "",
+      "name": "getAlgebra",
+      "result": "(int, int, int, int, int, int, int)"
+    }
+  ],
+  "112329": [
+    {
+      "arguments": "",
+      "name": "get_pack_price",
+      "result": "int"
+    }
+  ],
+  "112347": [
+    {
+      "arguments": "slice owner_address",
+      "name": "get_wallet_address",
+      "result": "slice"
+    },
+    {
+      "arguments": "slice $$owner",
+      "name": "get_wallet_address",
+      "result": "_"
+    },
+    {
+      "arguments": "slice owner",
+      "name": "get_wallet_address",
+      "result": "slice"
+    },
+    {
+      "arguments": "slice owner_address",
+      "name": "get_wallet_address",
+      "result": "var"
+    },
+    {
+      "arguments": "slice owner",
+      "name": "get_wallet_address",
+      "result": "_"
+    },
+    {
+      "arguments": "slice owner_address",
+      "name": "get_wallet_address",
+      "result": "(slice)"
+    },
+    {
+      "arguments": "slice $$owner_address",
+      "name": "get_wallet_address",
+      "result": "_"
+    },
+    {
+      "arguments": "slice $owner",
+      "name": "get_wallet_address",
+      "result": "_"
+    }
+  ],
+  "112652": [
+    {
+      "arguments": "",
+      "name": "get_bet_min",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "get_bet_min",
+      "result": "_"
+    }
+  ],
+  "112679": [
+    {
+      "arguments": "",
+      "name": "get_staking_wallet_data",
+      "result": "(int, int, int, int, slice, slice, cell)"
+    }
+  ],
+  "112776": [
+    {
+      "arguments": "",
+      "name": "get::info",
+      "result": "(_)"
+    }
+  ],
+  "112850": [
+    {
+      "arguments": "int id",
+      "name": "get_messages_unsigned_by_id",
+      "result": "cell"
+    }
+  ],
+  "112890": [
+    {
+      "arguments": "",
+      "name": "get_multisig_data",
+      "result": "(int, int, cell, cell, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_multisig_data",
+      "result": "(int, int, cell, cell)"
+    }
+  ],
+  "112916": [
+    {
+      "arguments": "",
+      "name": "codeVersion",
+      "result": "(int)"
+    }
+  ],
+  "113006": [
+    {
+      "arguments": "",
+      "name": "get_public_key",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "get_public_key",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "get_public_key",
+      "result": "(int)"
+    }
+  ],
+  "113031": [
+    {
+      "arguments": "",
+      "name": "validated",
+      "result": "_"
+    }
+  ],
+  "113172": [
+    {
+      "arguments": "",
+      "name": "numberPools",
+      "result": "_"
+    }
+  ],
+  "113332": [
+    {
+      "arguments": "",
+      "name": "get_token_balance",
+      "result": "int"
+    }
+  ],
+  "113522": [
+    {
+      "arguments": "",
+      "name": "get_minter_address",
+      "result": "slice"
+    },
+    {
+      "arguments": "cell wrapped_token_data",
+      "name": "get_minter_address",
+      "result": "slice"
+    },
+    {
+      "arguments": "",
+      "name": "get_minter_address",
+      "result": "(slice)"
+    }
+  ],
+  "113583": [
+    {
+      "arguments": "",
+      "name": "get_res",
+      "result": "int"
+    }
+  ],
+  "113638": [
+    {
+      "arguments": "",
+      "name": "get_min_fee",
+      "result": "int"
+    }
+  ],
+  "113652": [
+    {
+      "arguments": "",
+      "name": "get_cell",
+      "result": "cell"
+    }
+  ],
+  "113700": [
+    {
+      "arguments": "",
+      "name": "get_auction_info",
+      "result": "(slice, int, int)"
+    }
+  ],
+  "113902": [
+    {
+      "arguments": "",
+      "name": "test",
+      "result": "int"
+    },
+    {
+      "arguments": "int lend_amount, slice sender_address, int price",
+      "name": "test",
+      "result": "(int, int)"
+    }
+  ],
+  "113937": [
+    {
+      "arguments": "",
+      "name": "debug_get_int",
+      "result": "int"
+    }
+  ],
+  "114008": [
+    {
+      "arguments": "int destination_chain_id, cell token_class",
+      "name": "get_inbound_address",
+      "result": "slice"
+    }
+  ],
+  "114028": [
+    {
+      "arguments": "",
+      "name": "get_subscription_data",
+      "result": "([int, int], [int, int], int, int, int, int, int, int, int, int)"
+    }
+  ],
+  "114211": [
+    {
+      "arguments": "",
+      "name": "getRewards",
+      "result": "cell"
+    }
+  ],
+  "114295": [
+    {
+      "arguments": "int stake",
+      "name": "get_max_punishment",
+      "result": "int"
+    }
+  ],
+  "114312": [
+    {
+      "arguments": "int tier_index",
+      "name": "get_tier_data",
+      "result": "(int, int, int)"
+    }
+  ],
+  "114351": [
+    {
+      "arguments": "",
+      "name": "get_token_address",
+      "result": "slice"
+    }
+  ],
+  "114496": [
+    {
+      "arguments": "cell state_init",
+      "name": "calc_contract_address_state",
+      "result": "slice"
+    }
+  ],
+  "114580": [
+    {
+      "arguments": "",
+      "name": "get_rate",
+      "result": "(int, int)"
+    }
+  ],
+  "114672": [
+    {
+      "arguments": "int asset_id",
+      "name": "getAssetReserves",
+      "result": "(int)"
+    }
+  ],
+  "114673": [
+    {
+      "arguments": "int target_chain_id",
+      "name": "get_target_contract_address",
+      "result": "(slice)"
+    }
+  ],
+  "114707": [
+    {
+      "arguments": "int controller_addr_hash, int prev?",
+      "name": "get_controller_loan_position",
+      "result": "(int, int)"
+    }
+  ],
+  "114759": [
+    {
+      "arguments": "",
+      "name": "getTotalLikes",
+      "result": "int"
+    }
+  ],
+  "114832": [
+    {
+      "arguments": "slice address",
+      "name": "get_insurance",
+      "result": "(int, int)"
+    }
+  ],
+  "114871": [
+    {
+      "arguments": "",
+      "name": "dao",
+      "result": "_"
+    }
+  ],
+  "114988": [
+    {
+      "arguments": "",
+      "name": "JettonWallet",
+      "result": "_"
+    }
+  ],
+  "115008": [
+    {
+      "arguments": "",
+      "name": "getBipBase",
+      "result": "int"
+    }
+  ],
+  "115089": [
+    {
+      "arguments": "",
+      "name": "get_order_seqno",
+      "result": "int"
+    }
+  ],
+  "115184": [
+    {
+      "arguments": "",
+      "name": "has_withdraw_requests",
+      "result": "int"
+    }
+  ],
+  "115277": [
+    {
+      "arguments": "",
+      "name": "get_pad_data",
+      "result": "(int, slice, cell)"
+    }
+  ],
+  "115388": [
+    {
+      "arguments": "",
+      "name": "isUserSc",
+      "result": "(int)"
+    }
+  ],
+  "115402": [
+    {
+      "arguments": "",
+      "name": "get_lock_token_data",
+      "result": "(slice, slice, cell, cell, int, int, int, int, int, int)"
+    }
+  ],
+  "115670": [
+    {
+      "arguments": "",
+      "name": "get_transactions",
+      "result": "cell"
+    }
+  ],
+  "115729": [
+    {
+      "arguments": "",
+      "name": "debug_check_more_fields",
+      "result": "(cell)"
+    }
+  ],
+  "115956": [
+    {
+      "arguments": "",
+      "name": "get_stack_state",
+      "result": "var"
+    }
+  ],
+  "115990": [
+    {
+      "arguments": "",
+      "name": "launchFinalized",
+      "result": "_"
+    }
+  ],
+  "116063": [
+    {
+      "arguments": "int id",
+      "name": "get_timestamp",
+      "result": "int"
+    }
+  ],
+  "116088": [
+    {
+      "arguments": "",
+      "name": "get_number_of_uses",
+      "result": "(int)"
+    }
+  ],
+  "116155": [
+    {
+      "arguments": "",
+      "name": "get_offer_data",
+      "result": "(int, int, int, int, slice, slice, slice, int, slice, int, int, slice, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_test_cell",
+      "result": "cell"
+    }
+  ],
+  "116190": [
+    {
+      "arguments": "",
+      "name": "$__gen_get_owner",
+      "result": "_"
+    }
+  ],
+  "116193": [
+    {
+      "arguments": "int controller_id, int wc, int addr_hash",
+      "name": "get_controller_address_legacy",
+      "result": "(int, int)"
+    }
+  ],
+  "116207": [
+    {
+      "arguments": "",
+      "name": "playerList",
+      "result": "_"
+    }
+  ],
+  "116257": [
+    {
+      "arguments": "",
+      "name": "getAllUserScData",
+      "result": "(int, slice, slice, cell, int, cell, cell, cell)"
+    }
+  ],
+  "116281": [
+    {
+      "arguments": "",
+      "name": "get_balances",
+      "result": "(int, int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_balances",
+      "result": "(int, int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_balances",
+      "result": "(int, int)"
+    }
+  ],
+  "116390": [
+    {
+      "arguments": "",
+      "name": "get_fee_address",
+      "result": "slice"
+    }
+  ],
+  "116420": [
+    {
+      "arguments": "",
+      "name": "get_library_payment_period",
+      "result": "int"
+    }
+  ],
+  "116482": [
+    {
+      "arguments": "",
+      "name": "get_latest_sender",
+      "result": "slice"
+    }
+  ],
+  "116870": [
+    {
+      "arguments": "",
+      "name": "get_event_data",
+      "result": "_"
+    }
+  ],
+  "116938": [
+    {
+      "arguments": "int asset_id",
+      "name": "get_asset_tracking_info",
+      "result": "(int, int, int)"
+    }
+  ],
+  "116998": [
+    {
+      "arguments": "",
+      "name": "father",
+      "result": "_"
+    }
+  ],
+  "117002": [
+    {
+      "arguments": "",
+      "name": "debug_check_claims_data",
+      "result": "(cell)"
+    }
+  ],
+  "117105": [
+    {
+      "arguments": "",
+      "name": "get_cohort_number",
+      "result": "slice"
+    }
+  ],
+  "117421": [
+    {
+      "arguments": "",
+      "name": "get_validator_controller_data",
+      "result": "_"
+    }
+  ],
+  "117442": [
+    {
+      "arguments": "cell data_feed_ids, cell payload",
+      "name": "get_prices_v2",
+      "result": "(cell)"
+    }
+  ],
+  "117498": [
+    {
+      "arguments": "",
+      "name": "bank",
+      "result": "_"
+    }
+  ],
+  "117504": [
+    {
+      "arguments": "",
+      "name": "consentMessage",
+      "result": "_"
+    }
+  ],
+  "117515": [
+    {
+      "arguments": "",
+      "name": "inscribeFee",
+      "result": "_"
+    }
+  ],
+  "117686": [
+    {
+      "arguments": "int jetton_amount",
+      "name": "get_expected_liquidity",
+      "result": "(int, int)"
+    }
+  ],
+  "117937": [
+    {
+      "arguments": "int a, int b",
+      "name": "gcd",
+      "result": "int"
+    }
+  ],
+  "117971": [
+    {
+      "arguments": "slice owner_address, int withdraw_id",
+      "name": "get_withdraw_address",
+      "result": "slice"
+    }
+  ],
+  "117980": [
+    {
+      "arguments": "",
+      "name": "claimStartTime",
+      "result": "_"
+    }
+  ],
+  "117984": [
+    {
+      "arguments": "slice user_addr",
+      "name": "get_user_tickets",
+      "result": "int"
+    }
+  ],
+  "118135": [
+    {
+      "arguments": "",
+      "name": "get_nft_owner",
+      "result": "(int, int)"
+    }
+  ],
+  "118155": [
+    {
+      "arguments": "",
+      "name": "get_full_data",
+      "result": "(cell, slice, slice, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_full_data",
+      "result": "_"
+    }
+  ],
+  "118290": [
+    {
+      "arguments": "",
+      "name": "proposal_snapshot_time",
+      "result": "(int)"
+    }
+  ],
+  "118357": [
+    {
+      "arguments": "",
+      "name": "get_treasury_state",
+      "result": "var"
+    }
+  ],
+  "118417": [
+    {
+      "arguments": "slice address",
+      "name": "is_whitelisted",
+      "result": "int"
+    }
+  ],
+  "118439": [
+    {
+      "arguments": "",
+      "name": "get_earned",
+      "result": "int"
+    }
+  ],
+  "118448": [
+    {
+      "arguments": "",
+      "name": "get_mp_fee_addr",
+      "result": "(int, int)"
+    }
+  ],
+  "118498": [
+    {
+      "arguments": "",
+      "name": "dummy_liquidate_user_message",
+      "result": "cell"
+    }
+  ],
+  "118499": [
+    {
+      "arguments": "int nft_value",
+      "name": "get_txvalue_for_nftvalue",
+      "result": "(int)"
+    }
+  ],
+  "118521": [
+    {
+      "arguments": "slice addr",
+      "name": "is_address_claimed",
+      "result": "int"
+    }
+  ],
+  "118567": [
+    {
+      "arguments": "cell data_source",
+      "name": "get_is_valid_data_source",
+      "result": "int"
+    }
+  ],
+  "118603": [
+    {
+      "arguments": "",
+      "name": "get_roles",
+      "result": "(slice, slice)"
+    }
+  ],
+  "118630": [
+    {
+      "arguments": "",
+      "name": "getppb",
+      "result": "int"
+    }
+  ],
+  "118804": [
+    {
+      "arguments": "",
+      "name": "get_messages_unsigned",
+      "result": "cell"
+    }
+  ],
+  "118890": [
+    {
+      "arguments": "int amount, slice token_wallet",
+      "name": "get_expected_outputs",
+      "result": "(int, int, int)"
+    }
+  ],
+  "119009": [
+    {
+      "arguments": "",
+      "name": "get_channel_state",
+      "result": "int"
+    }
+  ],
+  "119180": [
+    {
+      "arguments": "",
+      "name": "get_telegram_username",
+      "result": "slice"
+    }
+  ],
+  "119181": [
+    {
+      "arguments": "",
+      "name": "orderHashList",
+      "result": "_"
+    }
+  ],
+  "119379": [
+    {
+      "arguments": "",
+      "name": "tokenAddress",
+      "result": "_"
+    }
+  ],
+  "119410": [
+    {
+      "arguments": "tuple data_feed_ids",
+      "name": "read_prices",
+      "result": "(tuple)"
+    }
+  ],
+  "119622": [
+    {
+      "arguments": "",
+      "name": "publicKey",
+      "result": "_"
+    }
+  ],
+  "119663": [
+    {
+      "arguments": "",
+      "name": "address",
+      "result": "_"
+    }
+  ],
+  "119676": [
+    {
+      "arguments": "",
+      "name": "get2",
+      "result": "int"
+    },
+    {
+      "arguments": "int tt",
+      "name": "test_int",
+      "result": "int"
+    }
+  ],
+  "119794": [
+    {
+      "arguments": "int index, cell individual_nft_content",
+      "name": "get_nft_content",
+      "result": "cell"
+    },
+    {
+      "arguments": "int index, cell individual_content",
+      "name": "get_nft_content",
+      "result": "cell"
+    },
+    {
+      "arguments": "",
+      "name": "get_nft_content",
+      "result": "(int, int, int, int, int, int, slice, slice)"
+    },
+    {
+      "arguments": "",
+      "name": "get_nft_content",
+      "result": "(int, int, int, int)"
+    },
+    {
+      "arguments": "int $$index, cell $$individual_content",
+      "name": "get_nft_content",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "get_nft_content",
+      "result": "(int, int, int, int, int, int, slice, slice, int)"
+    },
+    {
+      "arguments": "int index, cell individual_sbt_content",
+      "name": "get_nft_content",
+      "result": "cell"
+    },
+    {
+      "arguments": "int index, cell individual_content",
+      "name": "get_nft_content",
+      "result": "(int, int, slice, cell)"
+    }
+  ],
+  "119803": [
+    {
+      "arguments": "slice address",
+      "name": "get_auto_claim_timestamp",
+      "result": "int"
+    }
+  ],
+  "120109": [
+    {
+      "arguments": "int round_since, int index",
+      "name": "get_bill_address",
+      "result": "slice"
+    },
+    {
+      "arguments": "slice user_address",
+      "name": "get_bill_address",
+      "result": "(slice)"
+    },
+    {
+      "arguments": "slice user_address",
+      "name": "get_bill_address",
+      "result": "slice"
+    }
+  ],
+  "120140": [
+    {
+      "arguments": "",
+      "name": "get_ts",
+      "result": "int"
+    }
+  ],
+  "120177": [
+    {
+      "arguments": "",
+      "name": "get_token_state",
+      "result": "(slice, int, slice)"
+    }
+  ],
+  "120259": [
+    {
+      "arguments": "",
+      "name": "depends_on_tvm_upgrade",
+      "result": "int"
+    }
+  ],
+  "120401": [
+    {
+      "arguments": "cell locker_locking_script",
+      "name": "get_locker_wallet_address",
+      "result": "(slice)"
+    }
+  ],
+  "120418": [
+    {
+      "arguments": "slice address",
+      "name": "get_member_balance",
+      "result": "_"
+    }
+  ],
+  "120437": [
+    {
+      "arguments": "",
+      "name": "get_withdrawable_amount",
+      "result": "(int)"
+    }
+  ],
+  "120448": [
+    {
+      "arguments": "int critical?, int seconds, int bits, int refs",
+      "name": "proposal_storage_price",
+      "result": "_"
+    },
+    {
+      "arguments": "int critical?, int seconds, int bits, int refs",
+      "name": "proposal_storage_price",
+      "result": "int"
+    }
+  ],
+  "120476": [
+    {
+      "arguments": "slice address",
+      "name": "get_daily_checkin_count",
+      "result": "int"
+    }
+  ],
+  "120692": [
+    {
+      "arguments": "",
+      "name": "balance",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "balance",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "balance",
+      "result": "(int)"
+    }
+  ],
+  "120718": [
+    {
+      "arguments": "",
+      "name": "AllHolders",
+      "result": "_"
+    }
+  ],
+  "120720": [
+    {
+      "arguments": "",
+      "name": "getBettingAmount",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "120756": [
+    {
+      "arguments": "",
+      "name": "getStatus",
+      "result": "int"
+    }
+  ],
+  "120825": [
+    {
+      "arguments": "",
+      "name": "get_total",
+      "result": "int"
+    }
+  ],
+  "120844": [
+    {
+      "arguments": "slice owner_address",
+      "name": "get_wallet_address4",
+      "result": "slice"
+    }
+  ],
+  "120931": [
+    {
+      "arguments": "",
+      "name": "kek",
+      "result": "int"
+    }
+  ],
+  "120944": [
+    {
+      "arguments": "int $$num",
+      "name": "vLuckByNum",
+      "result": "_"
+    }
+  ],
+  "120995": [
+    {
+      "arguments": "",
+      "name": "fee",
+      "result": "int"
+    }
+  ],
+  "121023": [
+    {
+      "arguments": "",
+      "name": "get_owner_public_key",
+      "result": "int"
+    }
+  ],
+  "121154": [
+    {
+      "arguments": "",
+      "name": "gasRefund",
+      "result": "_"
+    }
+  ],
+  "121194": [
+    {
+      "arguments": "slice user_address",
+      "name": "get_user_position_address",
+      "result": "slice"
+    }
+  ],
+  "121405": [
+    {
+      "arguments": "",
+      "name": "getUpgradeConfig",
+      "result": "(int, int, int, int, int, cell, cell, cell)"
+    }
+  ],
+  "121423": [
+    {
+      "arguments": "",
+      "name": "get_exchange_data",
+      "result": "(slice, slice, int, slice, int, int, int)"
+    }
+  ],
+  "121447": [
+    {
+      "arguments": "",
+      "name": "get_ido_round_data",
+      "result": "_"
+    }
+  ],
+  "121453": [
+    {
+      "arguments": "int $$index",
+      "name": "poolConfig",
+      "result": "_"
+    }
+  ],
+  "121546": [
+    {
+      "arguments": "int time",
+      "name": "get_balances_at",
+      "result": "(int, int, int)"
+    }
+  ],
+  "121555": [
+    {
+      "arguments": "slice owner_address, slice jetton_address",
+      "name": "get_bridge_receipt_address",
+      "result": "(slice)"
+    }
+  ],
+  "121568": [
+    {
+      "arguments": "",
+      "name": "get_reserves",
+      "result": "(int, int)"
+    }
+  ],
+  "121574": [
+    {
+      "arguments": "int referralID",
+      "name": "get_referral",
+      "result": "(slice)"
+    }
+  ],
+  "121645": [
+    {
+      "arguments": "",
+      "name": "conStatementsCount",
+      "result": "_"
+    }
+  ],
+  "121714": [
+    {
+      "arguments": "",
+      "name": "get_discovery_data",
+      "result": "(slice, cell)"
+    }
+  ],
+  "121715": [
+    {
+      "arguments": "",
+      "name": "maxBid",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "get_treasury",
+      "result": "(slice)"
+    }
+  ],
+  "121747": [
+    {
+      "arguments": "",
+      "name": "get_bill_amount",
+      "result": "(int)"
+    }
+  ],
+  "121752": [
+    {
+      "arguments": "",
+      "name": "check_valid_funding_round",
+      "result": "(int)"
+    }
+  ],
+  "121778": [
+    {
+      "arguments": "",
+      "name": "biggestWin",
+      "result": "_"
+    }
+  ],
+  "121855": [
+    {
+      "arguments": "",
+      "name": "get_sum",
+      "result": "int"
+    }
+  ],
+  "121856": [
+    {
+      "arguments": "",
+      "name": "get_outgoing_amount",
+      "result": "int"
+    }
+  ],
+  "122029": [
+    {
+      "arguments": "",
+      "name": "$__gen_get_id",
+      "result": "_"
+    }
+  ],
+  "122184": [
+    {
+      "arguments": "",
+      "name": "get_total_pools",
+      "result": "int"
+    }
+  ],
+  "122201": [
+    {
+      "arguments": "",
+      "name": "getGamePlayed",
+      "result": "int"
+    }
+  ],
+  "122212": [
+    {
+      "arguments": "",
+      "name": "get_all_claims_step6",
+      "result": "(cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_redeem_wallet_address",
+      "result": "slice"
+    }
+  ],
+  "122222": [
+    {
+      "arguments": "",
+      "name": "get_all_claims_step5",
+      "result": "(cell)"
+    }
+  ],
+  "122234": [
+    {
+      "arguments": "",
+      "name": "get_all_claims_step3",
+      "result": "(cell)"
+    }
+  ],
+  "122277": [
+    {
+      "arguments": "",
+      "name": "random",
+      "result": "_"
+    }
+  ],
+  "122385": [
+    {
+      "arguments": "",
+      "name": "past_elections_list",
+      "result": "tuple"
+    }
+  ],
+  "122487": [
+    {
+      "arguments": "",
+      "name": "playerQuantity",
+      "result": "_"
+    }
+  ],
+  "122514": [
+    {
+      "arguments": "",
+      "name": "proposal_end_time",
+      "result": "(int)"
+    }
+  ],
+  "122516": [
+    {
+      "arguments": "",
+      "name": "fetch_total_supply",
+      "result": "int"
+    }
+  ],
+  "122563": [
+    {
+      "arguments": "",
+      "name": "metadataType",
+      "result": "_"
+    }
+  ],
+  "122670": [
+    {
+      "arguments": "int min_loan, int max_loan, int max_interest",
+      "name": "calculate_loan_amount",
+      "result": "int"
+    }
+  ],
+  "122763": [
+    {
+      "arguments": "slice address",
+      "name": "fetch_balance",
+      "result": "int"
+    }
+  ],
+  "122878": [
+    {
+      "arguments": "int price_feed_id",
+      "name": "get_price_unsafe",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "122899": [
+    {
+      "arguments": "slice address",
+      "name": "get_daily_draw_count",
+      "result": "int"
+    }
+  ],
+  "123147": [
+    {
+      "arguments": "slice admin",
+      "name": "get_contract_addresses",
+      "result": "(slice, slice)"
+    }
+  ],
+  "123537": [
+    {
+      "arguments": "",
+      "name": "get_my_balance",
+      "result": "int"
+    }
+  ],
+  "123540": [
+    {
+      "arguments": "slice $$addr",
+      "name": "participation",
+      "result": "_"
+    }
+  ],
+  "123545": [
+    {
+      "arguments": "",
+      "name": "end",
+      "result": "_"
+    }
+  ],
+  "123563": [
+    {
+      "arguments": "",
+      "name": "is_bridge_paused",
+      "result": "(int)"
+    }
+  ],
+  "123634": [
+    {
+      "arguments": "",
+      "name": "metadataTicker",
+      "result": "_"
+    }
+  ],
+  "123660": [
+    {
+      "arguments": "int hash, slice signature",
+      "name": "get_ecdsa_pub_key",
+      "result": "(int, int, int, int)"
+    },
+    {
+      "arguments": "int hash",
+      "name": "get_ecdsa_pub_key",
+      "result": "(int, int, int, int)"
+    }
+  ],
+  "123786": [
+    {
+      "arguments": "",
+      "name": "get_second_owner_address",
+      "result": "(slice)"
+    }
+  ],
+  "123850": [
+    {
+      "arguments": "slice address",
+      "name": "get_user_balance",
+      "result": "_"
+    }
+  ],
+  "123864": [
+    {
+      "arguments": "",
+      "name": "get_sale_settings",
+      "result": "(int, int, int, int, int, int)"
+    }
+  ],
+  "123953": [
+    {
+      "arguments": "int controller_id, slice validator",
+      "name": "_get_controller_address",
+      "result": "slice"
+    }
+  ],
+  "123972": [
+    {
+      "arguments": "",
+      "name": "get_info_contract",
+      "result": "cell"
+    }
+  ],
+  "123975": [
+    {
+      "arguments": "",
+      "name": "get_total_jettons",
+      "result": "int"
+    }
+  ],
+  "124007": [
+    {
+      "arguments": "slice destination",
+      "name": "check_destination",
+      "result": "int"
+    }
+  ],
+  "124050": [
+    {
+      "arguments": "",
+      "name": "get_subscription_type",
+      "result": "int"
+    }
+  ],
+  "124184": [
+    {
+      "arguments": "cell state_init",
+      "name": "get_calculate_jetton_wallet_address",
+      "result": "slice"
+    }
+  ],
+  "124281": [
+    {
+      "arguments": "",
+      "name": "get_verifier_registry_address",
+      "result": "slice"
+    }
+  ],
+  "124403": [
+    {
+      "arguments": "",
+      "name": "lastClaim",
+      "result": "_"
+    }
+  ],
+  "124429": [
+    {
+      "arguments": "",
+      "name": "get_params",
+      "result": "_"
+    }
+  ],
+  "124461": [
+    {
+      "arguments": "",
+      "name": "info",
+      "result": "(int, slice, slice, int, int, int)"
+    }
+  ],
+  "124493": [
+    {
+      "arguments": "",
+      "name": "getLastUserScVersion",
+      "result": "(int)"
+    }
+  ],
+  "124578": [
+    {
+      "arguments": "int tons",
+      "name": "coins_for_tons",
+      "result": "var"
+    },
+    {
+      "arguments": "int tons",
+      "name": "coins_for_tons",
+      "result": "int"
+    }
+  ],
+  "124606": [
+    {
+      "arguments": "",
+      "name": "get_dao_wallet_data",
+      "result": "(int, slice, slice, cell, int, int)"
+    }
+  ],
+  "124659": [
+    {
+      "arguments": "",
+      "name": "get_locker_data",
+      "result": "(int, int, int, int, int, int)"
+    }
+  ],
+  "124675": [
+    {
+      "arguments": "",
+      "name": "get_slice",
+      "result": "slice"
+    }
+  ],
+  "124721": [
+    {
+      "arguments": "",
+      "name": "version",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "version",
+      "result": "slice"
+    }
+  ],
+  "124878": [
+    {
+      "arguments": "",
+      "name": "owner",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "owner",
+      "result": "slice"
+    }
+  ],
+  "124881": [
+    {
+      "arguments": "slice owner_address",
+      "name": "get_user_address",
+      "result": "slice"
+    }
+  ],
+  "125042": [
+    {
+      "arguments": "int x, int y",
+      "name": "public_key_to_address",
+      "result": "int"
+    },
+    {
+      "arguments": "int v, int r, int s",
+      "name": "public_key_to_address",
+      "result": "int"
+    }
+  ],
+  "125046": [
+    {
+      "arguments": "",
+      "name": "counter2",
+      "result": "_"
+    }
+  ],
+  "125089": [
+    {
+      "arguments": "",
+      "name": "get_negative",
+      "result": "int"
+    }
+  ],
+  "125229": [
+    {
+      "arguments": "",
+      "name": "get_governance_data_source",
+      "result": "cell"
+    }
+  ],
+  "125239": [
+    {
+      "arguments": "",
+      "name": "get_pool_full_data",
+      "result": "var"
+    }
+  ],
+  "125258": [
+    {
+      "arguments": "",
+      "name": "get_management",
+      "result": "cell"
+    }
+  ],
+  "125278": [
+    {
+      "arguments": "slice owner_address",
+      "name": "get_wallet_state_init_and_salt",
+      "result": "(cell, int)"
+    }
+  ],
+  "125295": [
+    {
+      "arguments": "int battle_id",
+      "name": "get_battle",
+      "result": "cell"
+    }
+  ],
+  "125553": [
+    {
+      "arguments": "",
+      "name": "getJettonAddress",
+      "result": "(slice)"
+    }
+  ],
+  "125618": [
+    {
+      "arguments": "",
+      "name": "get_unowned",
+      "result": "_"
+    }
+  ],
+  "125733": [
+    {
+      "arguments": "",
+      "name": "get_wallet_id",
+      "result": "int"
+    }
+  ],
+  "125855": [
+    {
+      "arguments": "",
+      "name": "sellFeePerc",
+      "result": "_"
+    }
+  ],
+  "125985": [
+    {
+      "arguments": "",
+      "name": "get_unlocked_amount",
+      "result": "(cell, int)"
+    },
+    {
+      "arguments": "int now_time, int total_amount",
+      "name": "get_unlocked_amount",
+      "result": "int"
+    }
+  ],
+  "125986": [
+    {
+      "arguments": "",
+      "name": "get_allowances",
+      "result": "(cell)"
+    }
+  ],
+  "126021": [
+    {
+      "arguments": "",
+      "name": "get_individual_limit",
+      "result": "(int)"
+    }
+  ],
+  "126085": [
+    {
+      "arguments": "",
+      "name": "get_user_contract_code",
+      "result": "cell"
+    }
+  ],
+  "126152": [
+    {
+      "arguments": "",
+      "name": "get_lock_timeout",
+      "result": "int"
+    }
+  ],
+  "126254": [
+    {
+      "arguments": "int lend_amount, int price, int variableBorrowAPY",
+      "name": "test1",
+      "result": "int"
+    }
+  ],
+  "126257": [
+    {
+      "arguments": "",
+      "name": "get_next_admin_address",
+      "result": "slice"
+    },
+    {
+      "arguments": "",
+      "name": "get_next_admin_address",
+      "result": "(slice)"
+    }
+  ],
+  "126368": [
+    {
+      "arguments": "int nonce, slice jetton_wallet, slice to, int amount, int created_at",
+      "name": "get_sign_hash",
+      "result": "int"
+    }
+  ],
+  "126403": [
+    {
+      "arguments": "",
+      "name": "get_migration_data",
+      "result": "(int, int, int)"
+    }
+  ],
+  "126652": [
+    {
+      "arguments": "int $$id",
+      "name": "keyInfoById",
+      "result": "_"
+    }
+  ],
+  "126665": [
+    {
+      "arguments": "slice name",
+      "name": "get_jetton_address_by_name",
+      "result": "slice"
+    }
+  ],
+  "126703": [
+    {
+      "arguments": "",
+      "name": "get_players_max",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "get_players_max",
+      "result": "_"
+    }
+  ],
+  "126904": [
+    {
+      "arguments": "int key",
+      "name": "get_provider_info",
+      "result": "_"
+    }
+  ],
+  "126978": [
+    {
+      "arguments": "",
+      "name": "get_claim_wallet_address",
+      "result": "slice"
+    }
+  ],
+  "127065": [
+    {
+      "arguments": "",
+      "name": "get_current_supply",
+      "result": "int"
+    }
+  ],
+  "127088": [
+    {
+      "arguments": "",
+      "name": "vLuckShares",
+      "result": "_"
+    }
+  ],
+  "127185": [
+    {
+      "arguments": "int election_id",
+      "name": "list_complaints",
+      "result": "tuple"
+    }
+  ],
+  "127255": [
+    {
+      "arguments": "",
+      "name": "get_contract_balance",
+      "result": "(int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_contract_balance",
+      "result": "int"
+    }
+  ],
+  "127274": [
+    {
+      "arguments": "",
+      "name": "get_locker_bill_data",
+      "result": "(slice, int, slice, int)"
+    }
+  ],
+  "127316": [
+    {
+      "arguments": "int id",
+      "name": "get_verifier",
+      "result": "(slice, cell, int)"
+    }
+  ],
+  "127379": [
+    {
+      "arguments": "",
+      "name": "maxbet",
+      "result": "int"
+    }
+  ],
+  "127432": [
+    {
+      "arguments": "",
+      "name": "get_sold_jetton_amount",
+      "result": "(int)"
+    }
+  ],
+  "127658": [
+    {
+      "arguments": "slice data",
+      "name": "get_update_fee",
+      "result": "int"
+    }
+  ],
+  "127815": [
+    {
+      "arguments": "int mask",
+      "name": "messages_by_mask",
+      "result": "cell"
+    },
+    {
+      "arguments": "int mask, int inv",
+      "name": "messages_by_mask",
+      "result": "cell"
+    }
+  ],
+  "127852": [
+    {
+      "arguments": "",
+      "name": "get_latest_number_of_claims",
+      "result": "int"
+    }
+  ],
+  "128149": [
+    {
+      "arguments": "",
+      "name": "get_capacity",
+      "result": "(int)"
+    }
+  ],
+  "128213": [
+    {
+      "arguments": "int max_viewed_cells, int workchain, int seconds, cell contract_code",
+      "name": "get_contract_storage_fee",
+      "result": "(int)"
+    }
+  ],
+  "128219": [
+    {
+      "arguments": "",
+      "name": "get_counter",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "get_counter",
+      "result": "(int)"
+    }
+  ],
+  "128277": [
+    {
+      "arguments": "",
+      "name": "get_market_price",
+      "result": "int"
+    }
+  ],
+  "128411": [
+    {
+      "arguments": "int utime",
+      "name": "balance_at",
+      "result": "int"
+    }
+  ],
+  "128598": [
+    {
+      "arguments": "slice resource_name",
+      "name": "get_resource_claims",
+      "result": "(cell)"
+    }
+  ],
+  "128731": [
+    {
+      "arguments": "int my_balance, int c, int n, int t",
+      "name": "calc_prize_pool",
+      "result": "int"
+    }
+  ],
+  "128934": [
+    {
+      "arguments": "slice owner_address, int record_num",
+      "name": "get_record_address",
+      "result": "slice"
+    }
+  ],
+  "128952": [
+    {
+      "arguments": "",
+      "name": "get_last_number",
+      "result": "int"
+    }
+  ],
+  "129083": [
+    {
+      "arguments": "",
+      "name": "get_last_member",
+      "result": "(int, int)"
+    }
+  ],
+  "129144": [
+    {
+      "arguments": "",
+      "name": "time",
+      "result": "_"
+    }
+  ],
+  "129233": [
+    {
+      "arguments": "slice $$addr",
+      "name": "hasAccepted",
+      "result": "_"
+    },
+    {
+      "arguments": "",
+      "name": "hasAccepted",
+      "result": "_"
+    }
+  ],
+  "129358": [
+    {
+      "arguments": "int time_elapsed",
+      "name": "getUpdatedRatesForAllAssets",
+      "result": "(cell)"
+    }
+  ],
+  "129411": [
+    {
+      "arguments": "int $$value",
+      "name": "msgValue",
+      "result": "_"
+    }
+  ],
+  "129485": [
+    {
+      "arguments": "",
+      "name": "get_players_list_current_round",
+      "result": "(tuple)"
+    }
+  ],
+  "129549": [
+    {
+      "arguments": "int proposal_hash",
+      "name": "list_voters",
+      "result": "tuple"
+    }
+  ],
+  "129578": [
+    {
+      "arguments": "",
+      "name": "getbalance",
+      "result": "int"
+    }
+  ],
+  "129600": [
+    {
+      "arguments": "",
+      "name": "getSum3",
+      "result": "(int)"
+    }
+  ],
+  "129606": [
+    {
+      "arguments": "",
+      "name": "get_pool_full_data_raw",
+      "result": "var"
+    }
+  ],
+  "129631": [
+    {
+      "arguments": "slice owner_address",
+      "name": "get_lp_account_address",
+      "result": "slice"
+    }
+  ],
+  "129706": [
+    {
+      "arguments": "",
+      "name": "winner",
+      "result": "_"
+    }
+  ],
+  "129712": [
+    {
+      "arguments": "",
+      "name": "get_royalty_params",
+      "result": "(int, int, int, int, slice)"
+    }
+  ],
+  "129893": [
+    {
+      "arguments": "",
+      "name": "get_storage_info",
+      "result": "_"
+    }
+  ],
+  "129899": [
+    {
+      "arguments": "int amount0, int amount1",
+      "name": "get_expected_tokens",
+      "result": "(int)"
+    }
+  ],
+  "129957": [
+    {
+      "arguments": "",
+      "name": "get_my_variable",
+      "result": "int"
+    }
+  ],
+  "129962": [
+    {
+      "arguments": "slice to_address",
+      "name": "get_vault_address",
+      "result": "slice"
+    }
+  ],
+  "129987": [
+    {
+      "arguments": "",
+      "name": "get_creation_fee",
+      "result": "int"
+    }
+  ],
+  "130074": [
+    {
+      "arguments": "",
+      "name": "get_admin",
+      "result": "slice"
+    },
+    {
+      "arguments": "",
+      "name": "get_admin",
+      "result": "(slice)"
+    }
+  ],
+  "130123": [
+    {
+      "arguments": "",
+      "name": "get_badge_data",
+      "result": "(int, int, slice, slice, int, cell)"
+    }
+  ],
+  "130199": [
+    {
+      "arguments": "slice domain, cell val",
+      "name": "calcregprice",
+      "result": "int"
+    }
+  ],
+  "130268": [
+    {
+      "arguments": "",
+      "name": "get_seqno",
+      "result": "int"
+    }
+  ],
+  "130286": [
+    {
+      "arguments": "",
+      "name": "get_redeem_data",
+      "result": "(int, int, int, slice, slice, cell, cell, int)"
+    }
+  ],
+  "130447": [
+    {
+      "arguments": "int asset_id",
+      "name": "get_asset_principal",
+      "result": "int"
+    }
+  ],
+  "130716": [
+    {
+      "arguments": "",
+      "name": "available?",
+      "result": "(int, int)"
+    }
+  ],
+  "130932": [
+    {
+      "arguments": "",
+      "name": "maxOrderLength",
+      "result": "_"
+    }
+  ],
+  "130958": [
+    {
+      "arguments": "",
+      "name": "get_price",
+      "result": "int"
+    },
+    {
+      "arguments": "",
+      "name": "get_price",
+      "result": "(int, int)"
+    },
+    {
+      "arguments": "",
+      "name": "get_price",
+      "result": "(int)"
+    },
+    {
+      "arguments": "int numberOfDiamonds",
+      "name": "get_price",
+      "result": "int"
+    }
+  ],
+  "131001": [
+    {
+      "arguments": "",
+      "name": "consentTime",
+      "result": "_"
+    }
+  ],
+  "131022": [
+    {
+      "arguments": "int asset_id",
+      "name": "get_asset_sb_rate",
+      "result": "(int, int)"
+    }
+  ],
+  "131058": [
+    {
+      "arguments": "",
+      "name": "get_bridge_info",
+      "result": "(slice, slice)"
+    }
+  ]
+}
