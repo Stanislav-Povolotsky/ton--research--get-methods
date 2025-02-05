@@ -1,7 +1,7 @@
 # TON Get Methods
 
 Here you can see `method_id` for each known get method.  
-Also there is JSON representation of this data: [all-methods.json](all-methods.json).
+Also there is JSON representation of this data: [all-known-methods.json](all-known-methods.json).
 
 ## 95787	get\_jetton\_data
 - \(int, int, slice, cell, cell\) get\_jetton\_data\(\) 
