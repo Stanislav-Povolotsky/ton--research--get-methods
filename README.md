@@ -1,7 +1,8 @@
 # TON Get Methods
 
 Here you can see `method_id` for each known get method.  
-Also there is JSON representation of this data: [all-known-methods.json](all-known-methods.json).
+Also there is JSON representation of this data: [all-known-methods.json](all-known-methods.json).  
+FYI: You can call _any method_ if you know method_id (>65535) and don't know it's name by using this table: [all-methods.json](all-methods.json). For example you can use "method_id:85143:github:Stanislav-Povolotsky:rand_prowler" instead of calling "seqno" method (because they have exactly the same crc16 checksum).
 
 ## 106029	get\_jetton\_data
 - \(int, int, slice, cell, cell\) get\_jetton\_data\(\) 
@@ -102,15 +103,15 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 - \_ seqno\(\) 
 ## 106685	tokenAddress
 - \_ tokenAddress\(\) 
+## 117305	get\_id
+- int get\_id\(\) 
+- \(int\) get\_id\(\) 
+- \(slice\) get\_id\(\) 
 ## 80293	get\_owner
 - slice get\_owner\(\) 
 - \_ get\_owner\(\) 
 - \(slice\) get\_owner\(\) 
 - \(int, int\) get\_owner\(int public\_key\) 
-## 117305	get\_id
-- int get\_id\(\) 
-- \(int\) get\_id\(\) 
-- \(slice\) get\_id\(\) 
 ## 127487	get\_counter
 - int get\_counter\(\) 
 - \(int\) get\_counter\(\) 
@@ -440,6 +441,10 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 - \(int, slice, int, int, int, cell\) get\_bank\_data\(\) 
 ## 107037	get\_code\_version
 - int get\_code\_version\(\) 
+## 67872	get\_user\_balance
+- \_ get\_user\_balance\(slice address\) 
+- int get\_user\_balance\(int user\_id\) 
+- \(int, cell\) get\_user\_balance\(int user\_id\) 
 ## 79057	get\_source\_item\_address
 - slice get\_source\_item\_address\(int verifier\_id, int verified\_code\_cell\_hash\) 
 ## 69660	get\_verifier\_registry\_address
@@ -555,6 +560,10 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 - int get\_merkle\_root\(\) 
 ## 83263	get\_nft\_api\_info
 - \(int, cell\) get\_nft\_api\_info\(\) 
+## 108850	get\_settings
+- \(int, int, int, int\) get\_settings\(\) 
+- \(slice, cell, cell\) get\_settings\(\) 
+- \(slice, slice, int, int, int, int, int, int\) get\_settings\(\) 
 ## 75549	get\_nonces
 - \(int, int, int, int, int\) get\_nonces\(\) 
 ## 70257	get\_limit
@@ -678,6 +687,8 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 - tuple list\_complaints\(int election\_id\) 
 ## 97951	complaint\_storage\_price
 - int complaint\_storage\_price\(int bits, int refs, int expire\_in\) 
+## 101616	get\_pow\_params
+- \(int, int, int, int\) get\_pow\_params\(\) 
 ## 108602	balance\_at
 - int balance\_at\(int utime\) 
 ## 80113	wallet\_id
@@ -708,8 +719,6 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 ## 69281	get\_minter\_data
 - \(int, int, int, int, slice, slice, cell, cell, cell\) get\_minter\_data\(\) 
 - \(int, int, int, int, int\) get\_minter\_data\(\) 
-## 67872	get\_user\_balance
-- \_ get\_user\_balance\(slice address\) 
 ## 91785	get\_user
 - \_ get\_user\(slice address\) 
 ## 128560	sellFeePerc
@@ -773,9 +782,6 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 - int tickets\_limit\(int c, int n\) 
 ## 127650	calc\_prize\_pool
 - int calc\_prize\_pool\(int my\_balance, int c, int n, int t\) 
-## 108850	get\_settings
-- \(int, int, int, int\) get\_settings\(\) 
-- \(slice, cell, cell\) get\_settings\(\) 
 ## 74877	get\_available\_balance
 - \_ get\_available\_balance\(\) 
 - int get\_available\_balance\(\) 
@@ -857,6 +863,10 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 - int get\_salt\(\) 
 ## 126409	get\_owner\_infos
 - cell get\_owner\_infos\(\) 
+## 96136	get\_daily\_draw\_count
+- int get\_daily\_draw\_count\(slice address\) 
+## 111777	get\_daily\_checkin\_count
+- int get\_daily\_checkin\_count\(slice address\) 
 ## 81617	get\_pubKey
 - int get\_pubKey\(\) 
 ## 82469	get\_full\_data
@@ -975,6 +985,8 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 - \_ globalStats\(\) 
 ## 103508	get\_latest\_sender
 - slice get\_latest\_sender\(\) 
+## 101258	get\_total\_users
+- int get\_total\_users\(\) 
 ## 113353	get3
 - int get3\(\) 
 ## 69216	address
@@ -995,8 +1007,6 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 - int calcprice\(slice domain, cell val\) 
 ## 85700	calcregprice
 - int calcregprice\(slice domain, cell val\) 
-## 101616	get\_pow\_params
-- \(int, int, int, int\) get\_pow\_params\(\) 
 ## 116960	prepare\_send\_message\_with\_seqno
 - cell prepare\_send\_message\_with\_seqno\(int mode, cell msg, int seqno\) 
 ## 101633	prepare\_send\_message
@@ -1505,10 +1515,6 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 - \(slice\) get\_referral\(int referralID\) 
 ## 69944	get\_purchased
 - \(int\) get\_purchased\(slice sender\) 
-## 96136	get\_daily\_draw\_count
-- int get\_daily\_draw\_count\(slice address\) 
-## 111777	get\_daily\_checkin\_count
-- int get\_daily\_checkin\_count\(slice address\) 
 ## 79691	get\_current\_balance
 - int get\_current\_balance\(\) 
 ## 102449	get\_round\_id
@@ -1639,6 +1645,10 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 - int get\_counter\_test\(\) 
 ## 127473	get\_count\_id
 - int get\_count\_id\(\) 
+## 128781	get\_user\_purchase
+- \(int, int, int, int\) get\_user\_purchase\(int wc, int addr\_hash\) 
+## 110491	get\_addresses
+- \(slice, slice\) get\_addresses\(\) 
 ## 113988	get\_insurance
 - \(int, int\) get\_insurance\(slice address\) 
 ## 113930	get\_lp\_account\_proof
@@ -1703,8 +1713,12 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 - \_ get\_user\_submit\_list\(\) 
 ## 91057	get\_ido\_round\_data
 - \_ get\_ido\_round\_data\(\) 
+## 100874	get\_streak\_info
+- \(int, int\) get\_streak\_info\(\) 
 ## 68038	get\_tester
 - int get\_tester\(\) 
+## 67315	get\_counter\_1
+- int get\_counter\_1\(\) 
 ## 77544	get\_token\_address
 - slice get\_token\_address\(\) 
 ## 116768	finished
@@ -1715,6 +1729,8 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 - \_ playAddress\(int $$seqno, int $$quantity\) 
 ## 77742	get\_migration\_data
 - \(int, int, int\) get\_migration\_data\(\) 
+## 123140	get\_auction\_data\_v4
+- \(int, int, int, slice, slice, slice, int, slice, int, slice, int, int, slice, int, int, int, int, int, int, int, int, int, slice, slice, int, int\) get\_auction\_data\_v4\(\) 
 ## 129680	pointer
 - \_ pointer\(\) 
 ## 126779	get\_whitelist\_info
@@ -1849,6 +1865,8 @@ Also there is JSON representation of this data: [all-known-methods.json](all-kno
 - int get\_positive\(\) 
 ## 119951	get\_negative
 - int get\_negative\(\) 
+## 71215	get\_counter2
+- int get\_counter2\(\) 
 ## 78418	currentPrice
 - \_ currentPrice\(\) 
 ## 92013	random

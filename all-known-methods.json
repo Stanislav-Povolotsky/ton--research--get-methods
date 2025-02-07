@@ -151,6 +151,13 @@
       "result": "(int)"
     }
   ],
+  "67315": [
+    {
+      "arguments": "",
+      "name": "get_counter_1",
+      "result": "int"
+    }
+  ],
   "67344": [
     {
       "arguments": "",
@@ -203,6 +210,16 @@
       "arguments": "slice address",
       "name": "get_user_balance",
       "result": "_"
+    },
+    {
+      "arguments": "int user_id",
+      "name": "get_user_balance",
+      "result": "int"
+    },
+    {
+      "arguments": "int user_id",
+      "name": "get_user_balance",
+      "result": "(int, cell)"
     }
   ],
   "67919": [
@@ -581,6 +598,13 @@
       "arguments": "",
       "name": "get_contract_storage",
       "result": "(int, slice, cell, cell, int, slice, slice)"
+    }
+  ],
+  "71215": [
+    {
+      "arguments": "",
+      "name": "get_counter2",
+      "result": "int"
     }
   ],
   "71261": [
@@ -3578,6 +3602,13 @@
       "result": "(cell)"
     }
   ],
+  "100874": [
+    {
+      "arguments": "",
+      "name": "get_streak_info",
+      "result": "(int, int)"
+    }
+  ],
   "100881": [
     {
       "arguments": "",
@@ -3623,6 +3654,13 @@
       "arguments": "",
       "name": "maxBid",
       "result": "_"
+    }
+  ],
+  "101258": [
+    {
+      "arguments": "",
+      "name": "get_total_users",
+      "result": "int"
     }
   ],
   "101268": [
@@ -4751,6 +4789,11 @@
       "arguments": "",
       "name": "get_settings",
       "result": "(slice, cell, cell)"
+    },
+    {
+      "arguments": "",
+      "name": "get_settings",
+      "result": "(slice, slice, int, int, int, int, int, int)"
     }
   ],
   "108963": [
@@ -4984,6 +5027,13 @@
       "arguments": "",
       "name": "load_current_token_supply",
       "result": "int"
+    }
+  ],
+  "110491": [
+    {
+      "arguments": "",
+      "name": "get_addresses",
+      "result": "(slice, slice)"
     }
   ],
   "110493": [
@@ -6313,6 +6363,13 @@
       "result": "(cell)"
     }
   ],
+  "123140": [
+    {
+      "arguments": "",
+      "name": "get_auction_data_v4",
+      "result": "(int, int, int, slice, slice, slice, int, slice, int, slice, int, int, slice, int, int, int, int, int, int, int, int, int, slice, slice, int, int)"
+    }
+  ],
   "123159": [
     {
       "arguments": "",
@@ -6866,6 +6923,13 @@
       "arguments": "",
       "name": "get_players_list_last_round",
       "result": "(tuple)"
+    }
+  ],
+  "128781": [
+    {
+      "arguments": "int wc, int addr_hash",
+      "name": "get_user_purchase",
+      "result": "(int, int, int, int)"
     }
   ],
   "128800": [
